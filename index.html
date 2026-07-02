@@ -131,6 +131,17 @@ footer{margin-top:60px;font-size:11px;color:var(--faint);border-top:1px solid va
     <div class="spotlight" id="lc-panel"></div>
   </section>
 
+  <section aria-labelledby="s-groups">
+    <div class="sec-label" id="s-groups">Named strategies</div>
+    <div class="table-wrap"><table id="group-table" aria-label="Per-group performance">
+      <thead><tr>
+        <th>Strategy</th><th class="num">Open</th><th class="num">Open P/L</th>
+        <th class="num">Closed</th><th class="num">Win rate</th>
+        <th class="num">Profit factor</th><th class="num">Expectancy</th><th class="num">Realized P/L</th>
+      </tr></thead><tbody></tbody>
+    </table></div>
+  </section>
+
   <section aria-labelledby="s-open">
     <div class="sec-label" id="s-open">Open positions & exit signals</div>
     <div id="open-list"></div>
@@ -151,7 +162,7 @@ footer{margin-top:60px;font-size:11px;color:var(--faint);border-top:1px solid va
     <div class="sec-label" id="s-closed">Closed trades</div>
     <div class="table-wrap"><table id="closed-table" aria-label="Closed trade log">
       <thead><tr>
-        <th>ID</th><th>Symbol</th><th>Strategy</th><th>Opened</th><th>Closed</th>
+        <th>ID</th><th>Symbol</th><th>Group</th><th>Strategy</th><th>Opened</th><th>Closed</th>
         <th class="num">Entry</th><th class="num">Exit</th><th class="num">P/L</th><th class="num">P/L %</th><th>How</th>
       </tr></thead><tbody></tbody>
     </table></div>
@@ -226,6 +237,21 @@ function renderLongCalls(lc){
 
 function legText(l){return `${l.side==="long"?"+":"−"}${l.qty} ${l.strike}${l.type==="call"?"C":"P"}`;}
 
+function renderGroups(groups){
+  const tb=document.querySelector("#group-table tbody");
+  const rows=Object.values(groups||{});
+  tb.innerHTML = rows.length ? rows.map(m=>`<tr>
+    <td>${m.label}</td>
+    <td class="num">${m.open_positions??0}</td>
+    <td class="num ${plClass(m.open_pl)}">${fmt$(m.open_pl)}</td>
+    <td class="num">${m.trades}</td>
+    <td class="num">${fmtPct(m.win_rate)}</td><td class="num">${pf(m.profit_factor)}</td>
+    <td class="num ${plClass(m.expectancy)}">${fmt$(m.expectancy)}</td>
+    <td class="num ${plClass(m.total_pl)}">${fmt$(m.total_pl)}</td></tr>`).join("")
+    : `<tr><td colspan="8" class="empty" style="border:none">No named strategy groups — add a "group" field to trades.</td></tr>`;
+  document.getElementById("s-groups").closest("section").hidden = !rows.length;
+}
+
 function renderOpen(open){
   const el=document.getElementById("open-list");
   if(!open.length){el.innerHTML=`<div class="empty">No open positions. Add trades to trades.json — entries lock at the next market close.</div>`;return;}
@@ -241,6 +267,7 @@ function renderOpen(open){
     return `<article class="pos">
       <div class="pos-top">
         <span class="sym">${p.symbol}</span>
+        ${p.group?`<span class="chip" style="color:var(--accent);border-color:var(--accent)">${p.group}</span>`:""}
         <span class="chip">${p.strategy_label}</span>
         <span class="chip">${p.dte} DTE</span>
         <span class="chip">${p.legs.map(legText).join(" / ")}</span>
@@ -276,7 +303,7 @@ function renderStrategies(s){
 function renderClosed(closed){
   const tb=document.querySelector("#closed-table tbody");
   tb.innerHTML = closed.length ? closed.map(t=>`<tr>
-    <td>${t.id}</td><td>${t.symbol}</td><td>${t.strategy_label}</td>
+    <td>${t.id}</td><td>${t.symbol}</td><td>${t.group||"—"}</td><td>${t.strategy_label}</td>
     <td>${t.buy_date}</td><td>${t.close_date||"—"}</td>
     <td class="num">${t.entry_price.toFixed(2)}</td><td class="num">${t.close_price.toFixed(2)}</td>
     <td class="num ${plClass(t.pl)}">${fmt$(t.pl)}</td>
@@ -293,6 +320,7 @@ fetch("data/dashboard.json?v="+Date.now())
     if(d.sample) document.getElementById("sample-banner").hidden=false;
     renderOverall(d.overall, d.equity);
     renderLongCalls(d.long_calls);
+    renderGroups(d.groups);
     renderOpen(d.open||[]);
     renderStrategies(d.strategies);
     renderClosed(d.closed||[]);

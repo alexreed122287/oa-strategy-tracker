@@ -43,6 +43,12 @@ TRADIER_BASE = ("https://sandbox.tradier.com/v1"
                 if os.environ.get("TRADIER_ENV", "").lower() == "sandbox"
                 else "https://api.tradier.com/v1")
 
+# Alpha Vantage: used ONLY to backfill entry prices for back-dated trades,
+# via its HISTORICAL_OPTIONS endpoint (full chain as of a past date).
+# Free tier is 25 requests/day — each backfill costs 1 request per
+# symbol+date, and results are cached in history.json so it's a one-time cost.
+ALPHAVANTAGE_KEY = os.environ.get("ALPHAVANTAGE_KEY", "").strip()
+
 STRATEGY_LABELS = {
     "long_call": "Long Call",
     "long_put": "Long Put",
@@ -179,6 +185,54 @@ def get_chain_marks(symbol: str, expiration: str) -> dict:
             print(f"  ! yfinance chain failed for {symbol} {expiration}: {e}")
     _chain_cache[key] = marks
     return marks
+
+
+_av_cache: dict = {}
+
+
+def historical_entry(trade: dict, on_date: str) -> float | None:
+    """Net position mark at the close of a PAST date, from Alpha Vantage's
+    HISTORICAL_OPTIONS chain. Returns None if unavailable."""
+    if not ALPHAVANTAGE_KEY:
+        return None
+    symbol = trade["symbol"]
+    key = (symbol, on_date)
+    if key not in _av_cache:
+        try:
+            r = requests.get("https://www.alphavantage.co/query", params={
+                "function": "HISTORICAL_OPTIONS", "symbol": symbol,
+                "date": on_date, "apikey": ALPHAVANTAGE_KEY,
+            }, timeout=60)
+            r.raise_for_status()
+            payload = r.json()
+            rows = payload.get("data") or []
+            if not rows:
+                print(f"  ! Alpha Vantage: no chain for {symbol} @ {on_date} "
+                      f"({payload.get('Information') or payload.get('Note') or 'empty'})")
+            marks = {}
+            for o in rows:
+                bid = float(o.get("bid") or 0)
+                ask = float(o.get("ask") or 0)
+                mark = float(o.get("mark") or 0)
+                px = (bid + ask) / 2 if (bid > 0 and ask > 0) else (mark if mark > 0 else None)
+                if px is not None:
+                    marks[(o["type"], float(o["strike"]), o["expiration"])] = round(px, 4)
+            _av_cache[key] = marks
+        except Exception as e:
+            print(f"  ! Alpha Vantage backfill failed for {symbol} @ {on_date}: {e}")
+            _av_cache[key] = {}
+    marks = _av_cache[key]
+    if not marks:
+        return None
+    total = 0.0
+    for leg in trade["legs"]:
+        exp = leg.get("expiration", trade["expiration"])
+        m = marks.get((leg["type"], float(leg["strike"]), exp))
+        if m is None:
+            return None
+        sign = 1 if leg["side"] == "long" else -1
+        total += sign * m * leg.get("qty", 1)
+    return round(total, 4)
 
 
 # ------------------------------------------------------------- indicators
@@ -376,10 +430,18 @@ def main():
             entry = history["entries"].get(tid)
         mark = position_mark(trade)
 
-        if entry is None and mark is not None and run_date >= trade["buy_date"]:
-            entry = mark
-            history["entries"][tid] = entry
-            print(f"  entry locked at close mark {entry}")
+        if entry is None:
+            # back-dated trade: pull the true buy-date close from Alpha Vantage
+            if trade["buy_date"] < run_date:
+                entry = historical_entry(trade, trade["buy_date"])
+                if entry is not None:
+                    history["entries"][tid] = entry
+                    print(f"  entry backfilled from {trade['buy_date']} close: {entry}")
+            # same-day trade (or no backfill available): today's close mark
+            if entry is None and mark is not None and run_date >= trade["buy_date"]:
+                entry = mark
+                history["entries"][tid] = entry
+                print(f"  entry locked at close mark {entry}")
 
         if mark is not None:
             history["snapshots"].setdefault(tid, {})[run_date] = mark
@@ -418,6 +480,7 @@ def main():
             "id": tid, "symbol": symbol,
             "strategy": trade["strategy"],
             "strategy_label": STRATEGY_LABELS.get(trade["strategy"], trade["strategy"]),
+            "group": trade.get("group"),
             "buy_date": trade["buy_date"], "expiration": trade["expiration"],
             "dte": dte(trade["expiration"]), "contracts": contracts,
             "legs": trade["legs"],
@@ -439,6 +502,18 @@ def main():
         for s, ts in by_strategy.items()
     }
     overall = bucket_metrics(closed_out)
+
+    # named strategy groups (user-defined portfolios): closed metrics + open exposure
+    group_names = sorted({t.get("group") for t in trades if t.get("group")})
+    group_metrics = {}
+    for g in group_names:
+        g_closed = [t for t in closed_out if t.get("group") == g]
+        g_open = [p for p in open_out if p.get("group") == g]
+        group_metrics[g] = {
+            "label": g, **bucket_metrics(g_closed),
+            "open_positions": len(g_open),
+            "open_pl": round(sum(p["pl"] for p in g_open if p["pl"] is not None), 2),
+        }
 
     lc_closed = by_strategy.get("long_call", [])
     lc_open = [p for p in open_out if p["strategy"] == "long_call"]
@@ -464,6 +539,7 @@ def main():
         "overall": overall,
         "long_calls": long_calls,
         "strategies": strategy_metrics,
+        "groups": group_metrics,
         "open": sorted(open_out, key=lambda p: p["dte"]),
         "closed": sorted(closed_out, key=lambda t: t["close_date"] or "", reverse=True),
         "equity": history["equity"][-120:],
@@ -479,6 +555,7 @@ def _closed_record(trade, entry, close_px, close_date, pl, how):
         "id": trade["id"], "symbol": trade["symbol"],
         "strategy": trade["strategy"],
         "strategy_label": STRATEGY_LABELS.get(trade["strategy"], trade["strategy"]),
+        "group": trade.get("group"),
         "buy_date": trade["buy_date"], "expiration": trade["expiration"],
         "close_date": close_date, "contracts": trade.get("contracts", 1),
         "entry_price": entry, "close_price": close_px,

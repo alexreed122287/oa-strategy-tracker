@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-02T23:45:49.959836+00:00",
+  "generated": "2026-07-02T23:49:25.765394+00:00",
   "as_of": "2026-07-02",
-  "source": "tradier",
+  "source": "yahoo",
   "overall": {
     "trades": 0,
     "wins": 0,
@@ -23,19 +23,705 @@
     "avg_loss": null,
     "expectancy": null,
     "total_pl": 0,
-    "open_positions": 1,
-    "open_pl": 0.0,
+    "open_positions": 33,
+    "open_pl": -10615.0,
     "insights": [
-      "No closed long calls yet \u2014 metrics will populate as trades resolve."
+      "No closed long calls yet \u2014 metrics will populate as trades resolve.",
+      "9 open long call(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost."
     ]
   },
   "strategies": {},
+  "groups": {
+    "1 Samurai Scan First": {
+      "label": "1 Samurai Scan First",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "profit_factor": null,
+      "avg_win": null,
+      "avg_loss": null,
+      "expectancy": null,
+      "total_pl": 0,
+      "open_positions": 11,
+      "open_pl": -1642.0
+    },
+    "GG_Core Leadership": {
+      "label": "GG_Core Leadership",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "profit_factor": null,
+      "avg_win": null,
+      "avg_loss": null,
+      "expectancy": null,
+      "total_pl": 0,
+      "open_positions": 1,
+      "open_pl": -50.0
+    },
+    "GG_High Relative Strength": {
+      "label": "GG_High Relative Strength",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "profit_factor": null,
+      "avg_win": null,
+      "avg_loss": null,
+      "expectancy": null,
+      "total_pl": 0,
+      "open_positions": 16,
+      "open_pl": 1335.5
+    },
+    "GG_Positive Expectancy": {
+      "label": "GG_Positive Expectancy",
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "profit_factor": null,
+      "avg_win": null,
+      "avg_loss": null,
+      "expectancy": null,
+      "total_pl": 0,
+      "open_positions": 5,
+      "open_pl": -10258.5
+    }
+  },
   "open": [
     {
-      "id": "LC-SPY-001",
-      "symbol": "SPY",
+      "id": "SAM1-NVDA-192_5C-0717",
+      "symbol": "NVDA",
       "strategy": "long_call",
       "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 192.5,
+          "qty": 1
+        }
+      ],
+      "entry_price": 9.33,
+      "mark": 7.225,
+      "pl": -210.5,
+      "pl_pct": -22.6,
+      "technicals": {
+        "price": 194.83,
+        "rsi": 41.2,
+        "sma20": 203.48,
+        "sma50": 209.65,
+        "macd_hist": -1.008
+      },
+      "sparkline": [
+        7.225
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "15 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-CRM-160C-0717",
+      "symbol": "CRM",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 160.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 7.58,
+      "mark": 9.175,
+      "pl": 159.5,
+      "pl_pct": 21.0,
+      "technicals": {
+        "price": 166.11,
+        "rsi": 50.0,
+        "sma20": 163.75,
+        "sma50": 174.07,
+        "macd_hist": 1.02
+      },
+      "sparkline": [
+        9.175
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-PLTR-122C-0717",
+      "symbol": "PLTR",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 122.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 7.55,
+      "mark": 9.95,
+      "pl": 240.0,
+      "pl_pct": 31.8,
+      "technicals": {
+        "price": 129.3,
+        "rsi": 51.6,
+        "sma20": 125.97,
+        "sma50": 134.58,
+        "macd_hist": 0.502
+      },
+      "sparkline": [
+        9.95
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-TSLA-415C-0717",
+      "symbol": "TSLA",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 415.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 21.53,
+      "mark": 6.1,
+      "pl": -1543.0,
+      "pl_pct": -71.7,
+      "technicals": {
+        "price": 393.45,
+        "rsi": 46.8,
+        "sma20": 399.16,
+        "sma50": 406.42,
+        "macd_hist": 1.651
+      },
+      "sparkline": [
+        6.1
+      ],
+      "recommendations": [
+        {
+          "level": "action",
+          "text": "Down 72% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
+          "level": "warn",
+          "text": "15 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-KHC-25C-0717",
+      "symbol": "KHC",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 25.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 0.55,
+      "mark": 0.765,
+      "pl": 21.5,
+      "pl_pct": 39.1,
+      "technicals": {
+        "price": 25.37,
+        "rsi": 65.3,
+        "sma20": 23.54,
+        "sma50": 23.03,
+        "macd_hist": 0.187
+      },
+      "sparkline": [
+        0.765
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-AVGO-370C-0717",
+      "symbol": "AVGO",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 370.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 14.4,
+      "mark": 9.925,
+      "pl": -447.5,
+      "pl_pct": -31.1,
+      "technicals": {
+        "price": 360.45,
+        "rsi": 39.7,
+        "sma20": 383.98,
+        "sma50": 408.89,
+        "macd_hist": -2.418
+      },
+      "sparkline": [
+        9.925
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "15 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-UBER-72_5C-0717",
+      "symbol": "UBER",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 72.5,
+          "qty": 1
+        }
+      ],
+      "entry_price": 2.25,
+      "mark": 3.275,
+      "pl": 102.5,
+      "pl_pct": 45.6,
+      "technicals": {
+        "price": 74.43,
+        "rsi": 54.3,
+        "sma20": 71.86,
+        "sma50": 73.21,
+        "macd_hist": 0.38
+      },
+      "sparkline": [
+        3.275
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-BABA-97C-0717",
+      "symbol": "BABA",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 97.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 4.23,
+      "mark": 3.1,
+      "pl": -113.0,
+      "pl_pct": -26.7,
+      "technicals": {
+        "price": 96.14,
+        "rsi": 24.0,
+        "sma20": 107.16,
+        "sma50": 122.07,
+        "macd_hist": -0.516
+      },
+      "sparkline": [
+        3.1
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "15 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+        },
+        {
+          "level": "warn",
+          "text": "RSI 24 (oversold) \u2014 underlying momentum has broken down against the position."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-BAC-57_5C-0717",
+      "symbol": "BAC",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-07-17",
+      "dte": 15,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 57.5,
+          "qty": 1
+        }
+      ],
+      "entry_price": 1.95,
+      "mark": 2.115,
+      "pl": 16.5,
+      "pl_pct": 8.5,
+      "technicals": {
+        "price": 58.73,
+        "rsi": 70.8,
+        "sma20": 56.4,
+        "sma50": 53.48,
+        "macd_hist": 0.06
+      },
+      "sparkline": [
+        2.115
+      ],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "RSI 71 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGPE-NVDA-170C-0807",
+      "symbol": "NVDA",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_Positive Expectancy",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-07",
+      "dte": 36,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 170.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 30.1,
+      "mark": 27.375,
+      "pl": -272.5,
+      "pl_pct": -9.1,
+      "technicals": {
+        "price": 194.83,
+        "rsi": 41.2,
+        "sma20": 203.48,
+        "sma50": 209.65,
+        "macd_hist": -1.008
+      },
+      "sparkline": [
+        27.375
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGPE-TSLA-375C-0807",
+      "symbol": "TSLA",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_Positive Expectancy",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-07",
+      "dte": 36,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 375.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 58.63,
+      "mark": 33.7,
+      "pl": -2493.0,
+      "pl_pct": -42.5,
+      "technicals": {
+        "price": 393.45,
+        "rsi": 46.8,
+        "sma20": 399.16,
+        "sma50": 406.42,
+        "macd_hist": 1.651
+      },
+      "sparkline": [
+        33.7
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-TGT-120C-0807",
+      "symbol": "TGT",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-07",
+      "dte": 36,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 120.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 12.3,
+      "mark": 12.325,
+      "pl": 2.5,
+      "pl_pct": 0.2,
+      "technicals": {
+        "price": 130.21,
+        "rsi": 49.3,
+        "sma20": 131.4,
+        "sma50": 127.87,
+        "macd_hist": -0.532
+      },
+      "sparkline": [
+        12.325
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-AAP-54C-0807",
+      "symbol": "AAP",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-07",
+      "dte": 36,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 54.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 10.0,
+      "mark": null,
+      "pl": null,
+      "pl_pct": null,
+      "technicals": {
+        "price": 61.53,
+        "rsi": 56.3,
+        "sma20": 59.47,
+        "sma50": 57.32,
+        "macd_hist": 0.269
+      },
+      "sparkline": [],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "Awaiting first market-close snapshot to lock entry price."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-DLTR-109C-0807",
+      "symbol": "DLTR",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-07",
+      "dte": 36,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 109.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 14.08,
+      "mark": 16.95,
+      "pl": 287.0,
+      "pl_pct": 20.4,
+      "technicals": {
+        "price": 124.05,
+        "rsi": 65.8,
+        "sma20": 114.82,
+        "sma50": 104.54,
+        "macd_hist": 0.602
+      },
+      "sparkline": [
+        16.95
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGPE-ASML-1480C-0821",
+      "symbol": "ASML",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
       "dte": 50,
@@ -44,68 +730,67 @@
         {
           "type": "call",
           "side": "long",
-          "strike": 620,
+          "strike": 1480.0,
           "qty": 1
         }
       ],
-      "entry_price": 129.05,
-      "mark": 129.05,
-      "pl": 0.0,
-      "pl_pct": 0.0,
+      "entry_price": 408.85,
+      "mark": 349.75,
+      "pl": -5910.0,
+      "pl_pct": -14.5,
       "technicals": {
-        "price": 744.78,
-        "rsi": 54.1,
-        "sma20": 740.12,
-        "sma50": 735.91,
-        "macd_hist": -0.226
+        "price": 1769.32,
+        "rsi": 49.7,
+        "sma20": 1825.42,
+        "sma50": 1646.96,
+        "macd_hist": -13.355
       },
       "sparkline": [
-        129.05
+        349.75
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
         }
       ],
-      "notes": "Example trade \u2014 replace with your own. Entry price locks at the market close of buy_date."
+      "notes": ""
     },
     {
-      "id": "PCS-AAPL-001",
-      "symbol": "AAPL",
-      "strategy": "put_credit_spread",
-      "strategy_label": "Put Credit Spread",
+      "id": "GGPE-CMG-30C-0821",
+      "symbol": "CMG",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
       "dte": 50,
       "contracts": 1,
       "legs": [
         {
-          "type": "put",
-          "side": "short",
-          "strike": 210,
-          "qty": 1
-        },
-        {
-          "type": "put",
+          "type": "call",
           "side": "long",
-          "strike": 205,
+          "strike": 30.0,
           "qty": 1
         }
       ],
-      "entry_price": -0.02,
-      "mark": -0.02,
-      "pl": 0.0,
-      "pl_pct": 0.0,
+      "entry_price": 5.58,
+      "mark": 5.9,
+      "pl": 32.0,
+      "pl_pct": 5.7,
       "technicals": {
-        "price": 308.63,
-        "rsi": 60.3,
-        "sma20": 294.8,
-        "sma50": 293.46,
-        "macd_hist": 0.255
+        "price": 35.39,
+        "rsi": 66.2,
+        "sma20": 31.82,
+        "sma50": 32.27,
+        "macd_hist": 0.495
       },
       "sparkline": [
-        -0.02
+        5.9
       ],
       "recommendations": [
         {
@@ -113,7 +798,741 @@
           "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
         }
       ],
-      "notes": "Example credit spread. Entry will be recorded as a negative net mark (credit received)."
+      "notes": ""
+    },
+    {
+      "id": "GGPE-GEV-880C-0821",
+      "symbol": "GEV",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_Positive Expectancy",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 880.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 279.25,
+      "mark": 263.1,
+      "pl": -1615.0,
+      "pl_pct": -5.8,
+      "technicals": {
+        "price": 1113.11,
+        "rsi": 57.2,
+        "sma20": 1022.87,
+        "sma50": 1041.7,
+        "macd_hist": 14.054
+      },
+      "sparkline": [
+        263.1
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-HPQ-19C-0821",
+      "symbol": "HPQ",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 19.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 3.55,
+      "mark": 3.4,
+      "pl": -15.0,
+      "pl_pct": -4.2,
+      "technicals": {
+        "price": 21.93,
+        "rsi": 38.9,
+        "sma20": 23.8,
+        "sma50": 22.74,
+        "macd_hist": -0.379
+      },
+      "sparkline": [
+        3.4
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-WYNN-85C-0821",
+      "symbol": "WYNN",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 85.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 13.38,
+      "mark": 13.225,
+      "pl": -15.5,
+      "pl_pct": -1.2,
+      "technicals": {
+        "price": 95.91,
+        "rsi": 35.8,
+        "sma20": 102.9,
+        "sma50": 102.25,
+        "macd_hist": -1.066
+      },
+      "sparkline": [
+        13.225
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-M-20C-0821",
+      "symbol": "M",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 20.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 4.33,
+      "mark": 3.575,
+      "pl": -75.5,
+      "pl_pct": -17.4,
+      "technicals": {
+        "price": 23.25,
+        "rsi": 50.0,
+        "sma20": 24.0,
+        "sma50": 21.48,
+        "macd_hist": -0.295
+      },
+      "sparkline": [
+        3.575
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-SWK-72_5C-0821",
+      "symbol": "SWK",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 72.5,
+          "qty": 1
+        }
+      ],
+      "entry_price": 20.7,
+      "mark": 19.45,
+      "pl": -125.0,
+      "pl_pct": -6.0,
+      "technicals": {
+        "price": 91.9,
+        "rsi": 65.0,
+        "sma20": 85.64,
+        "sma50": 80.38,
+        "macd_hist": 0.572
+      },
+      "sparkline": [
+        19.45
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-MPLX-50C-0821",
+      "symbol": "MPLX",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 50.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 6.25,
+      "mark": null,
+      "pl": null,
+      "pl_pct": null,
+      "technicals": {
+        "price": 57.16,
+        "rsi": 57.3,
+        "sma20": 56.45,
+        "sma50": 55.6,
+        "macd_hist": -0.029
+      },
+      "sparkline": [],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "Awaiting first market-close snapshot to lock entry price."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-IRDM-50C-0821",
+      "symbol": "IRDM",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 50.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 6.7,
+      "mark": 4.95,
+      "pl": -175.0,
+      "pl_pct": -26.1,
+      "technicals": {
+        "price": 53.75,
+        "rsi": 62.5,
+        "sma20": 47.31,
+        "sma50": 44.88,
+        "macd_hist": 0.979
+      },
+      "sparkline": [
+        4.95
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-ROST-185C-0821",
+      "symbol": "ROST",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 185.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 30.4,
+      "mark": 45.05,
+      "pl": 1465.0,
+      "pl_pct": 48.2,
+      "technicals": {
+        "price": 213.43,
+        "rsi": 39.0,
+        "sma20": 226.87,
+        "sma50": 224.82,
+        "macd_hist": -2.674
+      },
+      "sparkline": [
+        45.05
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-FDX-280C-0821",
+      "symbol": "FDX",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 280.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 38.58,
+      "mark": 37.8,
+      "pl": -78.0,
+      "pl_pct": -2.0,
+      "technicals": {
+        "price": 313.0,
+        "rsi": 44.6,
+        "sma20": 325.29,
+        "sma50": 317.07,
+        "macd_hist": -2.495
+      },
+      "sparkline": [
+        37.8
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-SJM-105C-0821",
+      "symbol": "SJM",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 105.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 11.5,
+      "mark": 12.85,
+      "pl": 135.0,
+      "pl_pct": 11.7,
+      "technicals": {
+        "price": 116.28,
+        "rsi": 62.5,
+        "sma20": 112.1,
+        "sma50": 104.28,
+        "macd_hist": -0.087
+      },
+      "sparkline": [
+        12.85
+      ],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-ALL-220C-0821",
+      "symbol": "ALL",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 220.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 27.15,
+      "mark": 32.15,
+      "pl": 500.0,
+      "pl_pct": 18.4,
+      "technicals": {
+        "price": 250.33,
+        "rsi": 75.0,
+        "sma20": 227.4,
+        "sma50": 219.21,
+        "macd_hist": 2.32
+      },
+      "sparkline": [
+        32.15
+      ],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "RSI 75 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-TOL-135C-0821",
+      "symbol": "TOL",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 135.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 25.45,
+      "mark": 23.8,
+      "pl": -165.0,
+      "pl_pct": -6.5,
+      "technicals": {
+        "price": 157.14,
+        "rsi": 58.0,
+        "sma20": 151.69,
+        "sma50": 143.32,
+        "macd_hist": 0.452
+      },
+      "sparkline": [
+        23.8
+      ],
+      "recommendations": [
+        {
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-WSM-200C-0821",
+      "symbol": "WSM",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 200.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 32.4,
+      "mark": 30.7,
+      "pl": -170.0,
+      "pl_pct": -5.2,
+      "technicals": {
+        "price": 227.53,
+        "rsi": 58.5,
+        "sma20": 223.63,
+        "sma50": 201.56,
+        "macd_hist": -0.828
+      },
+      "sparkline": [
+        30.7
+      ],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGHRS-OZK-47_5C-0821",
+      "symbol": "OZK",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_High Relative Strength",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 47.5,
+          "qty": 1
+        }
+      ],
+      "entry_price": 5.9,
+      "mark": 3.55,
+      "pl": -235.0,
+      "pl_pct": -39.8,
+      "technicals": {
+        "price": 49.84,
+        "rsi": 47.9,
+        "sma20": 50.78,
+        "sma50": 49.07,
+        "macd_hist": -0.026
+      },
+      "sparkline": [
+        3.55
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "GGCL-OKLO-40C-0821",
+      "symbol": "OKLO",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "GG_Core Leadership",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 40.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 14.4,
+      "mark": 13.9,
+      "pl": -50.0,
+      "pl_pct": -3.5,
+      "technicals": {
+        "price": 52.36,
+        "rsi": 40.6,
+        "sma20": 56.35,
+        "sma50": 63.93,
+        "macd_hist": -0.329
+      },
+      "sparkline": [
+        13.9
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-PDD-80C-0821",
+      "symbol": "PDD",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 80.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 6.65,
+      "mark": 6.425,
+      "pl": -22.5,
+      "pl_pct": -3.4,
+      "technicals": {
+        "price": 82.39,
+        "rsi": 49.4,
+        "sma20": 80.14,
+        "sma50": 89.37,
+        "macd_hist": 0.891
+      },
+      "sparkline": [
+        6.425
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "SAM1-WMT-110C-0821",
+      "symbol": "WMT",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "group": "1 Samurai Scan First",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 110.0,
+          "qty": 1
+        }
+      ],
+      "entry_price": 4.43,
+      "mark": 5.975,
+      "pl": 154.5,
+      "pl_pct": 34.9,
+      "technicals": {
+        "price": 111.84,
+        "rsi": 35.6,
+        "sma20": 117.51,
+        "sma50": 122.95,
+        "macd_hist": -0.575
+      },
+      "sparkline": [
+        5.975
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": ""
     }
   ],
   "closed": [],
@@ -121,7 +1540,7 @@
     {
       "date": "2026-07-02",
       "realized": 0,
-      "total": 0.0
+      "total": -10615.0
     }
   ]
 }
