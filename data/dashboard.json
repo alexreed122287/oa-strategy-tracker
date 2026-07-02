@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-02T03:22:52.491867+00:00",
-  "as_of": "2026-07-02 (sample \u2014 run setup.sh)",
-  "source": "yahoo",
+  "generated": "2026-07-02T23:45:49.959836+00:00",
+  "as_of": "2026-07-02",
+  "source": "tradier",
   "overall": {
     "trades": 0,
     "wins": 0,
@@ -48,19 +48,19 @@
           "qty": 1
         }
       ],
-      "entry_price": 130.02,
-      "mark": 130.02,
+      "entry_price": 129.05,
+      "mark": 129.05,
       "pl": 0.0,
       "pl_pct": 0.0,
       "technicals": {
-        "price": 745.76,
-        "rsi": 54.9,
-        "sma20": 740.5,
-        "sma50": 735.06,
-        "macd_hist": -0.497
+        "price": 744.78,
+        "rsi": 54.1,
+        "sma20": 740.12,
+        "sma50": 735.91,
+        "macd_hist": -0.226
       },
       "sparkline": [
-        130.02
+        129.05
       ],
       "recommendations": [
         {
@@ -93,28 +93,24 @@
           "qty": 1
         }
       ],
-      "entry_price": -0.025,
-      "mark": -0.025,
+      "entry_price": -0.02,
+      "mark": -0.02,
       "pl": 0.0,
       "pl_pct": 0.0,
       "technicals": {
-        "price": 294.38,
-        "rsi": 51.0,
-        "sma20": 294.88,
-        "sma50": 292.6,
-        "macd_hist": -1.257
+        "price": 308.63,
+        "rsi": 60.3,
+        "sma20": 294.8,
+        "sma50": 293.46,
+        "macd_hist": 0.255
       },
       "sparkline": [
-        -0.025
+        -0.02
       ],
       "recommendations": [
         {
-          "level": "warn",
-          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
-        },
-        {
-          "level": "watch",
-          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
         }
       ],
       "notes": "Example credit spread. Entry will be recorded as a negative net mark (credit received)."
@@ -127,6 +123,5 @@
       "realized": 0,
       "total": 0.0
     }
-  ],
-  "sample": true
+  ]
 }
