@@ -1,0 +1,29 @@
+[
+  {
+    "id": "LC-SPY-001",
+    "strategy": "long_call",
+    "symbol": "SPY",
+    "buy_date": "2026-07-01",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "legs": [
+      { "type": "call", "side": "long", "strike": 620, "qty": 1 }
+    ],
+    "status": "open",
+    "notes": "Example trade — replace with your own. Entry price locks at the market close of buy_date."
+  },
+  {
+    "id": "PCS-AAPL-001",
+    "strategy": "put_credit_spread",
+    "symbol": "AAPL",
+    "buy_date": "2026-07-01",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "legs": [
+      { "type": "put", "side": "short", "strike": 210, "qty": 1 },
+      { "type": "put", "side": "long", "strike": 205, "qty": 1 }
+    ],
+    "status": "open",
+    "notes": "Example credit spread. Entry will be recorded as a negative net mark (credit received)."
+  }
+]

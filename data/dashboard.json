@@ -1,0 +1,132 @@
+{
+  "generated": "2026-07-02T03:22:52.491867+00:00",
+  "as_of": "2026-07-02 (sample \u2014 run setup.sh)",
+  "source": "yahoo",
+  "overall": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": null,
+    "profit_factor": null,
+    "avg_win": null,
+    "avg_loss": null,
+    "expectancy": null,
+    "total_pl": 0
+  },
+  "long_calls": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": null,
+    "profit_factor": null,
+    "avg_win": null,
+    "avg_loss": null,
+    "expectancy": null,
+    "total_pl": 0,
+    "open_positions": 1,
+    "open_pl": 0.0,
+    "insights": [
+      "No closed long calls yet \u2014 metrics will populate as trades resolve."
+    ]
+  },
+  "strategies": {},
+  "open": [
+    {
+      "id": "LC-SPY-001",
+      "symbol": "SPY",
+      "strategy": "long_call",
+      "strategy_label": "Long Call",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "call",
+          "side": "long",
+          "strike": 620,
+          "qty": 1
+        }
+      ],
+      "entry_price": 130.02,
+      "mark": 130.02,
+      "pl": 0.0,
+      "pl_pct": 0.0,
+      "technicals": {
+        "price": 745.76,
+        "rsi": 54.9,
+        "sma20": 740.5,
+        "sma50": 735.06,
+        "macd_hist": -0.497
+      },
+      "sparkline": [
+        130.02
+      ],
+      "recommendations": [
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": "Example trade \u2014 replace with your own. Entry price locks at the market close of buy_date."
+    },
+    {
+      "id": "PCS-AAPL-001",
+      "symbol": "AAPL",
+      "strategy": "put_credit_spread",
+      "strategy_label": "Put Credit Spread",
+      "buy_date": "2026-07-01",
+      "expiration": "2026-08-21",
+      "dte": 50,
+      "contracts": 1,
+      "legs": [
+        {
+          "type": "put",
+          "side": "short",
+          "strike": 210,
+          "qty": 1
+        },
+        {
+          "type": "put",
+          "side": "long",
+          "strike": 205,
+          "qty": 1
+        }
+      ],
+      "entry_price": -0.025,
+      "mark": -0.025,
+      "pl": 0.0,
+      "pl_pct": 0.0,
+      "technicals": {
+        "price": 294.38,
+        "rsi": 51.0,
+        "sma20": 294.88,
+        "sma50": 292.6,
+        "macd_hist": -1.257
+      },
+      "sparkline": [
+        -0.025
+      ],
+      "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+        }
+      ],
+      "notes": "Example credit spread. Entry will be recorded as a negative net mark (credit received)."
+    }
+  ],
+  "closed": [],
+  "equity": [
+    {
+      "date": "2026-07-02",
+      "realized": 0,
+      "total": 0.0
+    }
+  ],
+  "sample": true
+}
