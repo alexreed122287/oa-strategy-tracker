@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T00:30:11.925804+00:00",
+  "generated": "2026-07-03T00:35:26.788810+00:00",
   "as_of": "2026-07-03",
   "source": "tradier",
   "overall": {
@@ -24,7 +24,7 @@
     "expectancy": null,
     "total_pl": 0,
     "open_positions": 77,
-    "open_pl": -4156.5,
+    "open_pl": -12051.5,
     "insights": [
       "No closed trades yet in Long Call \u2014 metrics will populate as positions resolve.",
       "22 open position(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost.",
@@ -82,7 +82,7 @@
       "expectancy": null,
       "total_pl": 0,
       "open_positions": 39,
-      "open_pl": 7800.0,
+      "open_pl": -95.0,
       "insights": [
         "No closed trades yet in GG_High Relative Strength \u2014 metrics will populate as positions resolve.",
         "Only 15% of open positions are currently profitable \u2014 this batch is fighting the tape more than the historical win rate suggests."
@@ -134,8 +134,8 @@
         "price": 194.83,
         "rsi": 41.2,
         "sma20": 203.48,
-        "sma50": 209.65,
-        "macd_hist": -1.008
+        "sma50": 209.8,
+        "macd_hist": -1.001
       },
       "sparkline": [
         7.225,
@@ -185,10 +185,10 @@
       "pl_pct": 21.0,
       "technicals": {
         "price": 166.11,
-        "rsi": 50.0,
-        "sma20": 163.75,
-        "sma50": 174.07,
-        "macd_hist": 1.02
+        "rsi": 49.9,
+        "sma20": 163.85,
+        "sma50": 174.38,
+        "macd_hist": 1.029
       },
       "sparkline": [
         9.175,
@@ -226,10 +226,10 @@
       "pl_pct": 31.8,
       "technicals": {
         "price": 129.3,
-        "rsi": 51.6,
+        "rsi": 51.5,
         "sma20": 125.97,
         "sma50": 134.58,
-        "macd_hist": 0.502
+        "macd_hist": 0.503
       },
       "sparkline": [
         9.95,
@@ -270,7 +270,7 @@
         "rsi": 46.8,
         "sma20": 399.16,
         "sma50": 406.42,
-        "macd_hist": 1.651
+        "macd_hist": 1.652
       },
       "sparkline": [
         6.1,
@@ -320,10 +320,10 @@
       "pl_pct": 39.1,
       "technicals": {
         "price": 25.37,
-        "rsi": 65.3,
-        "sma20": 23.54,
-        "sma50": 23.03,
-        "macd_hist": 0.187
+        "rsi": 64.7,
+        "sma20": 23.55,
+        "sma50": 23.29,
+        "macd_hist": 0.199
       },
       "sparkline": [
         0.765,
@@ -361,10 +361,10 @@
       "pl_pct": -31.1,
       "technicals": {
         "price": 360.45,
-        "rsi": 39.7,
-        "sma20": 383.98,
-        "sma50": 408.89,
-        "macd_hist": -2.418
+        "rsi": 39.6,
+        "sma20": 384.32,
+        "sma50": 409.43,
+        "macd_hist": -2.455
       },
       "sparkline": [
         9.925,
@@ -455,10 +455,10 @@
       "pl_pct": -26.7,
       "technicals": {
         "price": 96.14,
-        "rsi": 24.0,
-        "sma20": 107.16,
-        "sma50": 122.07,
-        "macd_hist": -0.516
+        "rsi": 23.8,
+        "sma20": 107.38,
+        "sma50": 122.88,
+        "macd_hist": -0.495
       },
       "sparkline": [
         3.1,
@@ -512,10 +512,10 @@
       "pl_pct": 8.5,
       "technicals": {
         "price": 58.73,
-        "rsi": 70.8,
+        "rsi": 70.5,
         "sma20": 56.4,
-        "sma50": 53.48,
-        "macd_hist": 0.06
+        "sma50": 53.64,
+        "macd_hist": 0.068
       },
       "sparkline": [
         2.115,
@@ -524,7 +524,7 @@
       "recommendations": [
         {
           "level": "watch",
-          "text": "RSI 71 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+          "text": "RSI 70 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
         }
       ],
       "notes": ""
@@ -553,10 +553,10 @@
       "pl_pct": -0.0,
       "technicals": {
         "price": 360.45,
-        "rsi": 39.7,
-        "sma20": 383.98,
-        "sma50": 408.89,
-        "macd_hist": -2.418
+        "rsi": 39.6,
+        "sma20": 384.32,
+        "sma50": 409.43,
+        "macd_hist": -2.455
       },
       "sparkline": [
         20.325
@@ -607,8 +607,8 @@
         "price": 194.83,
         "rsi": 41.2,
         "sma20": 203.48,
-        "sma50": 209.65,
-        "macd_hist": -1.008
+        "sma50": 209.8,
+        "macd_hist": -1.001
       },
       "sparkline": [
         8.775
@@ -660,7 +660,7 @@
         "rsi": 46.8,
         "sma20": 399.16,
         "sma50": 406.42,
-        "macd_hist": 1.651
+        "macd_hist": 1.652
       },
       "sparkline": [
         18.575
@@ -705,10 +705,10 @@
       "pl_pct": -0.1,
       "technicals": {
         "price": 166.11,
-        "rsi": 50.0,
-        "sma20": 163.75,
-        "sma50": 174.07,
-        "macd_hist": 1.02
+        "rsi": 49.9,
+        "sma20": 163.85,
+        "sma50": 174.38,
+        "macd_hist": 1.029
       },
       "sparkline": [
         6.175
@@ -750,7 +750,7 @@
       "technicals": {
         "price": 15.37,
         "rsi": 61.7,
-        "sma20": 14.2,
+        "sma20": 14.21,
         "sma50": 14.05,
         "macd_hist": 0.119
       },
@@ -789,10 +789,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 129.3,
-        "rsi": 51.6,
+        "rsi": 51.5,
         "sma20": 125.97,
         "sma50": 134.58,
-        "macd_hist": 0.502
+        "macd_hist": 0.503
       },
       "sparkline": [
         6.7
@@ -831,8 +831,8 @@
         "price": 111.84,
         "rsi": 35.6,
         "sma20": 117.51,
-        "sma50": 122.95,
-        "macd_hist": -0.575
+        "sma50": 123.01,
+        "macd_hist": -0.57
       },
       "sparkline": [
         2.72
@@ -877,10 +877,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 26.62,
-        "rsi": 41.6,
+        "rsi": 41.5,
         "sma20": 27.29,
         "sma50": 29.25,
-        "macd_hist": -0.032
+        "macd_hist": -0.028
       },
       "sparkline": [
         1.2
@@ -925,10 +925,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 88.34,
-        "rsi": 53.9,
+        "rsi": 53.3,
         "sma20": 86.4,
-        "sma50": 89.32,
-        "macd_hist": 0.404
+        "sma50": 89.72,
+        "macd_hist": 0.426
       },
       "sparkline": [
         2.13
@@ -965,10 +965,10 @@
       "pl_pct": -0.2,
       "technicals": {
         "price": 137.09,
-        "rsi": 36.9,
+        "rsi": 36.7,
         "sma20": 142.18,
-        "sma50": 147.55,
-        "macd_hist": -0.268
+        "sma50": 147.88,
+        "macd_hist": -0.241
       },
       "sparkline": [
         3.065
@@ -1057,10 +1057,10 @@
       "pl_pct": -0.4,
       "technicals": {
         "price": 44.09,
-        "rsi": 53.3,
+        "rsi": 52.9,
         "sma20": 43.38,
-        "sma50": 43.63,
-        "macd_hist": -0.025
+        "sma50": 43.83,
+        "macd_hist": -0.011
       },
       "sparkline": [
         1.345
@@ -1101,10 +1101,10 @@
       "pl_pct": -0.3,
       "technicals": {
         "price": 58.73,
-        "rsi": 70.8,
+        "rsi": 70.5,
         "sma20": 56.4,
-        "sma50": 53.48,
-        "macd_hist": 0.06
+        "sma50": 53.64,
+        "macd_hist": 0.068
       },
       "sparkline": [
         1.945
@@ -1116,7 +1116,7 @@
         },
         {
           "level": "watch",
-          "text": "RSI 71 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+          "text": "RSI 70 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
         }
       ],
       "notes": ""
@@ -1147,8 +1147,8 @@
         "price": 194.83,
         "rsi": 41.2,
         "sma20": 203.48,
-        "sma50": 209.65,
-        "macd_hist": -1.008
+        "sma50": 209.8,
+        "macd_hist": -1.001
       },
       "sparkline": [
         27.375,
@@ -1197,7 +1197,7 @@
         "rsi": 46.8,
         "sma20": 399.16,
         "sma50": 406.42,
-        "macd_hist": 1.651
+        "macd_hist": 1.652
       },
       "sparkline": [
         33.7,
@@ -1239,10 +1239,10 @@
       "pl_pct": 0.2,
       "technicals": {
         "price": 130.21,
-        "rsi": 49.3,
+        "rsi": 49.2,
         "sma20": 131.4,
-        "sma50": 127.87,
-        "macd_hist": -0.532
+        "sma50": 128.21,
+        "macd_hist": -0.504
       },
       "sparkline": [
         12.325,
@@ -1279,21 +1279,23 @@
         }
       ],
       "entry_price": 10.0,
-      "mark": null,
-      "pl": null,
-      "pl_pct": null,
+      "mark": 8.75,
+      "pl": -125.0,
+      "pl_pct": -12.5,
       "technicals": {
         "price": 61.53,
         "rsi": 56.3,
         "sma20": 59.47,
         "sma50": 57.32,
-        "macd_hist": 0.269
+        "macd_hist": 0.271
       },
-      "sparkline": [],
+      "sparkline": [
+        8.75
+      ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Awaiting first market-close snapshot to lock entry price."
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
         }
       ],
       "notes": ""
@@ -1365,8 +1367,8 @@
         "price": 194.83,
         "rsi": 41.2,
         "sma20": 203.48,
-        "sma50": 209.65,
-        "macd_hist": -1.008
+        "sma50": 209.8,
+        "macd_hist": -1.001
       },
       "sparkline": [
         27.375
@@ -1406,21 +1408,23 @@
         }
       ],
       "entry_price": 11.45,
-      "mark": null,
-      "pl": null,
-      "pl_pct": null,
+      "mark": 11.45,
+      "pl": 0.0,
+      "pl_pct": 0.0,
       "technicals": {
         "price": 61.53,
         "rsi": 56.3,
         "sma20": 59.47,
         "sma50": 57.32,
-        "macd_hist": 0.269
+        "macd_hist": 0.271
       },
-      "sparkline": [],
+      "sparkline": [
+        11.45
+      ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Awaiting first market-close snapshot to lock entry price."
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
         }
       ],
       "notes": ""
@@ -1491,8 +1495,8 @@
         "price": 1769.32,
         "rsi": 49.7,
         "sma20": 1825.42,
-        "sma50": 1646.96,
-        "macd_hist": -13.355
+        "sma50": 1647.15,
+        "macd_hist": -13.324
       },
       "sparkline": [
         349.75,
@@ -1576,9 +1580,9 @@
       "technicals": {
         "price": 1113.11,
         "rsi": 57.2,
-        "sma20": 1022.87,
-        "sma50": 1041.7,
-        "macd_hist": 14.054
+        "sma20": 1023.03,
+        "sma50": 1042.09,
+        "macd_hist": 14.051
       },
       "sparkline": [
         263.1,
@@ -1616,10 +1620,10 @@
       "pl_pct": -4.2,
       "technicals": {
         "price": 21.93,
-        "rsi": 38.9,
-        "sma20": 23.8,
-        "sma50": 22.74,
-        "macd_hist": -0.379
+        "rsi": 38.5,
+        "sma20": 23.85,
+        "sma50": 22.92,
+        "macd_hist": -0.374
       },
       "sparkline": [
         3.4,
@@ -1665,10 +1669,10 @@
       "pl_pct": -1.2,
       "technicals": {
         "price": 95.91,
-        "rsi": 35.8,
+        "rsi": 35.7,
         "sma20": 102.9,
-        "sma50": 102.25,
-        "macd_hist": -1.066
+        "sma50": 102.34,
+        "macd_hist": -1.058
       },
       "sparkline": [
         13.225,
@@ -1714,10 +1718,10 @@
       "pl_pct": -17.4,
       "technicals": {
         "price": 23.25,
-        "rsi": 50.0,
-        "sma20": 24.0,
-        "sma50": 21.48,
-        "macd_hist": -0.295
+        "rsi": 49.7,
+        "sma20": 24.05,
+        "sma50": 21.6,
+        "macd_hist": -0.296
       },
       "sparkline": [
         3.575,
@@ -1759,10 +1763,10 @@
       "pl_pct": -6.0,
       "technicals": {
         "price": 91.9,
-        "rsi": 65.0,
-        "sma20": 85.64,
-        "sma50": 80.38,
-        "macd_hist": 0.572
+        "rsi": 64.4,
+        "sma20": 85.68,
+        "sma50": 80.89,
+        "macd_hist": 0.596
       },
       "sparkline": [
         19.45,
@@ -1795,21 +1799,23 @@
         }
       ],
       "entry_price": 6.25,
-      "mark": null,
-      "pl": null,
-      "pl_pct": null,
+      "mark": 7.1,
+      "pl": 85.0,
+      "pl_pct": 13.6,
       "technicals": {
         "price": 57.16,
-        "rsi": 57.3,
+        "rsi": 56.8,
         "sma20": 56.45,
-        "sma50": 55.6,
-        "macd_hist": -0.029
+        "sma50": 55.84,
+        "macd_hist": -0.007
       },
-      "sparkline": [],
+      "sparkline": [
+        7.1
+      ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Awaiting first market-close snapshot to lock entry price."
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
         }
       ],
       "notes": ""
@@ -1838,10 +1844,10 @@
       "pl_pct": -26.1,
       "technicals": {
         "price": 53.75,
-        "rsi": 62.5,
-        "sma20": 47.31,
-        "sma50": 44.88,
-        "macd_hist": 0.979
+        "rsi": 62.3,
+        "sma20": 47.37,
+        "sma50": 44.99,
+        "macd_hist": 0.977
       },
       "sparkline": [
         4.95,
@@ -1874,19 +1880,19 @@
         }
       ],
       "entry_price": 30.4,
-      "mark": 45.05,
-      "pl": 1465.0,
-      "pl_pct": 48.2,
+      "mark": 31.15,
+      "pl": 75.0,
+      "pl_pct": 2.5,
       "technicals": {
         "price": 213.43,
-        "rsi": 39.0,
-        "sma20": 226.87,
-        "sma50": 224.82,
-        "macd_hist": -2.674
+        "rsi": 38.8,
+        "sma20": 226.94,
+        "sma50": 225.11,
+        "macd_hist": -2.665
       },
       "sparkline": [
         45.05,
-        45.05
+        31.15
       ],
       "recommendations": [
         {
@@ -1928,10 +1934,10 @@
       "pl_pct": -2.0,
       "technicals": {
         "price": 313.0,
-        "rsi": 44.6,
-        "sma20": 325.29,
-        "sma50": 317.07,
-        "macd_hist": -2.495
+        "rsi": 44.3,
+        "sma20": 325.91,
+        "sma50": 317.9,
+        "macd_hist": -2.565
       },
       "sparkline": [
         37.8,
@@ -1977,10 +1983,10 @@
       "pl_pct": 11.7,
       "technicals": {
         "price": 116.28,
-        "rsi": 62.5,
-        "sma20": 112.1,
-        "sma50": 104.28,
-        "macd_hist": -0.087
+        "rsi": 62.2,
+        "sma20": 112.09,
+        "sma50": 104.62,
+        "macd_hist": -0.059
       },
       "sparkline": [
         12.85,
@@ -2018,10 +2024,10 @@
       "pl_pct": 18.4,
       "technicals": {
         "price": 250.33,
-        "rsi": 75.0,
+        "rsi": 74.7,
         "sma20": 227.4,
-        "sma50": 219.21,
-        "macd_hist": 2.32
+        "sma50": 219.8,
+        "macd_hist": 2.362
       },
       "sparkline": [
         32.15,
@@ -2062,7 +2068,7 @@
         "rsi": 58.0,
         "sma20": 151.69,
         "sma50": 143.32,
-        "macd_hist": 0.452
+        "macd_hist": 0.454
       },
       "sparkline": [
         23.8,
@@ -2100,10 +2106,10 @@
       "pl_pct": -5.2,
       "technicals": {
         "price": 227.53,
-        "rsi": 58.5,
+        "rsi": 58.4,
         "sma20": 223.63,
         "sma50": 201.56,
-        "macd_hist": -0.828
+        "macd_hist": -0.823
       },
       "sparkline": [
         30.7,
@@ -2141,10 +2147,10 @@
       "pl_pct": -39.8,
       "technicals": {
         "price": 49.84,
-        "rsi": 47.9,
-        "sma20": 50.78,
+        "rsi": 47.8,
+        "sma20": 50.79,
         "sma50": 49.07,
-        "macd_hist": -0.026
+        "macd_hist": -0.023
       },
       "sparkline": [
         3.55,
@@ -2189,7 +2195,7 @@
         "rsi": 40.6,
         "sma20": 56.35,
         "sma50": 63.93,
-        "macd_hist": -0.329
+        "macd_hist": -0.33
       },
       "sparkline": [
         13.9,
@@ -2278,8 +2284,8 @@
         "price": 111.84,
         "rsi": 35.6,
         "sma20": 117.51,
-        "sma50": 122.95,
-        "macd_hist": -0.575
+        "sma50": 123.01,
+        "macd_hist": -0.57
       },
       "sparkline": [
         5.975,
@@ -2328,7 +2334,7 @@
         "rsi": 52.3,
         "sma20": 516.84,
         "sma50": 460.38,
-        "macd_hist": -3.484
+        "macd_hist": -3.485
       },
       "sparkline": [
         127.1
@@ -2408,7 +2414,7 @@
         "rsi": 52.6,
         "sma20": 407.65,
         "sma50": 323.09,
-        "macd_hist": -6.885
+        "macd_hist": -6.88
       },
       "sparkline": [
         91.25
@@ -2492,7 +2498,7 @@
         "rsi": 46.8,
         "sma20": 399.16,
         "sma50": 406.42,
-        "macd_hist": 1.651
+        "macd_hist": 1.652
       },
       "sparkline": [
         79.3
@@ -2533,10 +2539,10 @@
       "pl_pct": -0.0,
       "technicals": {
         "price": 434.16,
-        "rsi": 50.2,
-        "sma20": 437.42,
-        "sma50": 418.83,
-        "macd_hist": -0.903
+        "rsi": 50.1,
+        "sma20": 437.62,
+        "sma50": 419.48,
+        "macd_hist": -0.891
       },
       "sparkline": [
         93.275
@@ -2577,10 +2583,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 250.33,
-        "rsi": 75.0,
+        "rsi": 74.7,
         "sma20": 227.4,
-        "sma50": 219.21,
-        "macd_hist": 2.32
+        "sma50": 219.8,
+        "macd_hist": 2.362
       },
       "sparkline": [
         23.7
@@ -2612,9 +2618,9 @@
         }
       ],
       "entry_price": 37.75,
-      "mark": 102.4,
-      "pl": 6465.0,
-      "pl_pct": 171.3,
+      "mark": 37.75,
+      "pl": 0.0,
+      "pl_pct": 0.0,
       "technicals": {
         "price": 160.0,
         "rsi": 36.0,
@@ -2623,13 +2629,9 @@
         "macd_hist": -2.781
       },
       "sparkline": [
-        102.4
+        37.75
       ],
       "recommendations": [
-        {
-          "level": "action",
-          "text": "Up 171% \u2014 consider taking profit or selling half to lock in the original debit."
-        },
         {
           "level": "warn",
           "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
@@ -2709,10 +2711,10 @@
       "pl_pct": -0.1,
       "technicals": {
         "price": 38.21,
-        "rsi": 46.1,
+        "rsi": 45.9,
         "sma20": 39.04,
-        "sma50": 40.36,
-        "macd_hist": -0.202
+        "sma50": 40.44,
+        "macd_hist": -0.195
       },
       "sparkline": [
         9.325
@@ -2757,10 +2759,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 63.39,
-        "rsi": 74.2,
+        "rsi": 73.9,
         "sma20": 58.19,
-        "sma50": 57.85,
-        "macd_hist": 0.637
+        "sma50": 57.97,
+        "macd_hist": 0.645
       },
       "sparkline": [
         6.75
@@ -2797,10 +2799,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 77.99,
-        "rsi": 63.0,
-        "sma20": 75.31,
-        "sma50": 66.81,
-        "macd_hist": -0.288
+        "rsi": 61.5,
+        "sma20": 75.75,
+        "sma50": 67.48,
+        "macd_hist": -0.328
       },
       "sparkline": [
         10.9
@@ -2839,8 +2841,8 @@
         "price": 797.42,
         "rsi": 46.5,
         "sma20": 818.95,
-        "sma50": 820.98,
-        "macd_hist": -6.069
+        "sma50": 821.05,
+        "macd_hist": -6.062
       },
       "sparkline": [
         106.95
@@ -2885,10 +2887,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 361.17,
-        "rsi": 74.6,
-        "sma20": 331.86,
-        "sma50": 325.89,
-        "macd_hist": 3.173
+        "rsi": 74.1,
+        "sma20": 332.11,
+        "sma50": 326.59,
+        "macd_hist": 3.182
       },
       "sparkline": [
         39.7
@@ -2896,7 +2898,7 @@
       "recommendations": [
         {
           "level": "watch",
-          "text": "RSI 75 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+          "text": "RSI 74 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
         }
       ],
       "notes": ""
@@ -2925,10 +2927,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 192.03,
-        "rsi": 81.9,
-        "sma20": 173.33,
-        "sma50": 166.9,
-        "macd_hist": 2.004
+        "rsi": 81.5,
+        "sma20": 173.88,
+        "sma50": 167.66,
+        "macd_hist": 1.934
       },
       "sparkline": [
         23.45
@@ -2965,10 +2967,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 85.8,
-        "rsi": 72.2,
+        "rsi": 72.0,
         "sma20": 78.95,
-        "sma50": 79.65,
-        "macd_hist": 0.964
+        "sma50": 79.75,
+        "macd_hist": 0.971
       },
       "sparkline": [
         11.35
@@ -3005,9 +3007,9 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 40.47,
-        "rsi": 33.9,
-        "sma20": 43.14,
-        "sma50": 45.65,
+        "rsi": 33.1,
+        "sma20": 43.24,
+        "sma50": 45.89,
         "macd_hist": -0.202
       },
       "sparkline": [
@@ -3048,21 +3050,31 @@
         }
       ],
       "entry_price": 24.4,
-      "mark": null,
-      "pl": null,
-      "pl_pct": null,
+      "mark": 24.4,
+      "pl": 0.0,
+      "pl_pct": 0.0,
       "technicals": {
         "price": 172.04,
-        "rsi": 30.9,
-        "sma20": 186.87,
-        "sma50": 194.35,
-        "macd_hist": -1.658
+        "rsi": 30.8,
+        "sma20": 186.86,
+        "sma50": 194.7,
+        "macd_hist": -1.629
       },
-      "sparkline": [],
+      "sparkline": [
+        24.4
+      ],
       "recommendations": [
         {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
+        {
           "level": "watch",
-          "text": "Awaiting first market-close snapshot to lock entry price."
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
         }
       ],
       "notes": ""
@@ -3091,10 +3103,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 313.0,
-        "rsi": 44.6,
-        "sma20": 325.29,
-        "sma50": 317.07,
-        "macd_hist": -2.495
+        "rsi": 44.3,
+        "sma20": 325.91,
+        "sma50": 317.9,
+        "macd_hist": -2.565
       },
       "sparkline": [
         37.8
@@ -3139,10 +3151,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 21.93,
-        "rsi": 38.9,
-        "sma20": 23.8,
-        "sma50": 22.74,
-        "macd_hist": -0.379
+        "rsi": 38.5,
+        "sma20": 23.85,
+        "sma50": 22.92,
+        "macd_hist": -0.374
       },
       "sparkline": [
         4.2
@@ -3187,10 +3199,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 23.25,
-        "rsi": 50.0,
-        "sma20": 24.0,
-        "sma50": 21.48,
-        "macd_hist": -0.295
+        "rsi": 49.7,
+        "sma20": 24.05,
+        "sma50": 21.6,
+        "macd_hist": -0.296
       },
       "sparkline": [
         6.5
@@ -3231,10 +3243,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 110.48,
-        "rsi": 69.0,
-        "sma20": 103.49,
-        "sma50": 100.36,
-        "macd_hist": 0.579
+        "rsi": 68.8,
+        "sma20": 103.55,
+        "sma50": 100.57,
+        "macd_hist": 0.584
       },
       "sparkline": [
         21.2
@@ -3271,10 +3283,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 90.06,
-        "rsi": 65.0,
+        "rsi": 64.9,
         "sma20": 86.28,
-        "sma50": 82.46,
-        "macd_hist": -0.066
+        "sma50": 82.61,
+        "macd_hist": -0.053
       },
       "sparkline": [
         6.1
@@ -3350,21 +3362,23 @@
         }
       ],
       "entry_price": 6.8,
-      "mark": null,
-      "pl": null,
-      "pl_pct": null,
+      "mark": 6.8,
+      "pl": 0.0,
+      "pl_pct": 0.0,
       "technicals": {
         "price": 29.77,
-        "rsi": 56.1,
+        "rsi": 56.0,
         "sma20": 29.26,
         "sma50": 28.76,
-        "macd_hist": 0.095
+        "macd_hist": 0.098
       },
-      "sparkline": [],
+      "sparkline": [
+        6.8
+      ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Awaiting first market-close snapshot to lock entry price."
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
         }
       ],
       "notes": ""
@@ -3435,8 +3449,8 @@
         "price": 46.29,
         "rsi": 43.1,
         "sma20": 47.26,
-        "sma50": 52.21,
-        "macd_hist": -0.034
+        "sma50": 52.28,
+        "macd_hist": -0.029
       },
       "sparkline": [
         11.8
@@ -3481,10 +3495,10 @@
       "pl_pct": 0.0,
       "technicals": {
         "price": 21.93,
-        "rsi": 38.9,
-        "sma20": 23.8,
-        "sma50": 22.74,
-        "macd_hist": -0.379
+        "rsi": 38.5,
+        "sma20": 23.85,
+        "sma50": 22.92,
+        "macd_hist": -0.374
       },
       "sparkline": [
         1.94
@@ -3516,7 +3530,7 @@
     {
       "date": "2026-07-03",
       "realized": 0,
-      "total": -4156.5
+      "total": -12051.5
     }
   ]
 }
