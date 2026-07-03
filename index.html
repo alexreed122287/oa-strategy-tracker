@@ -78,8 +78,8 @@ details[open] .caret{transform:rotate(90deg)}
 .b-ok{background:rgba(74,222,158,.12);color:var(--gain)}
 
 /* position rows inside a group */
-.p-cols,.p-row{display:grid;grid-template-columns:minmax(150px,1.3fr) 70px 90px 90px 100px 110px 120px 24px;
-  gap:0 14px;align-items:center;padding:9px 18px}
+.p-cols,.p-row{display:grid;grid-template-columns:minmax(130px,1.2fr) 62px 62px 52px 74px 74px 92px 104px 104px 24px;
+  gap:0 12px;align-items:center;padding:9px 18px}
 .p-cols{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);
   border-top:1px solid var(--line);background:var(--ink)}
 details.pos{border-top:1px solid rgba(38,52,77,.55)}
@@ -202,6 +202,7 @@ const fmt$0 = v => v==null ? "—" :
 const fmtPct = v => v==null ? "—" : (v>0?"+":"")+v.toFixed(1)+"%";
 const plClass = v => v==null ? "" : v>0 ? "gain" : v<0 ? "loss" : "";
 const pf = v => v==null ? "—" : (v===Infinity||v==="Infinity") ? "∞" : Number(v).toFixed(2);
+const fmtDate = d => d ? String(d).slice(5).replace("-","/") : "—";
 const LEVELS = ["action","warn","watch","hold"];
 const worst = recs => LEVELS.find(l=>recs.some(r=>r.level===l)) || "hold";
 const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -271,6 +272,8 @@ function posRow(p){
   return `<details class="pos">
     <summary class="p-row">
       <span class="p-sym"><b>${esc(p.symbol)}</b> <span class="ct">${contractLabel(p)}${(p.contracts||1)>1?` ×${p.contracts}`:""}</span></span>
+      <span class="p-hide-m mut">${fmtDate(p.buy_date)}</span>
+      <span class="p-hide-m mut">${fmtDate(p.expiration)}</span>
       <span class="num">${p.dte}d</span>
       <span class="num p-hide-m">${p.entry_price!=null?p.entry_price.toFixed(2):"pend."}</span>
       <span class="num p-hide-m">${p.mark!=null?p.mark.toFixed(2):"—"}</span>
@@ -280,6 +283,7 @@ function posRow(p){
       <span class="num"><span class="dot d-${w}" title="${w}"></span></span>
     </summary>
     <div class="p-detail">
+      <div class="mut" style="font-size:12px;margin:2px 0 4px">Opened ${p.buy_date} · Expires ${p.expiration} (${p.dte} DTE)</div>
       <div class="tech">${
         [["Last",p.technicals&&p.technicals.price],["RSI",p.technicals&&p.technicals.rsi],
          ["SMA20",p.technicals&&p.technicals.sma20],["SMA50",p.technicals&&p.technicals.sma50],
@@ -315,7 +319,7 @@ function renderGroups(d){
                 : ps.length?`<span class="badge b-ok">holding</span>`:"";
     const realized = meta.total_pl!=null && meta.trades ? `${fmt$0(meta.total_pl)} · ${meta.win_rate!=null?meta.win_rate.toFixed(0)+"% win":""} ${meta.profit_factor!=null?"· PF "+pf(meta.profit_factor):""}` : "—";
     const rows = ps.length
-      ? `<div class="p-cols"><span>Contract</span><span class="num">DTE</span><span class="num">Entry</span><span class="num">Mark</span><span class="num">P/L / ct</span><span class="num">P/L total</span><span class="num">Trend</span><span></span></div>`
+      ? `<div class="p-cols"><span>Contract</span><span>Opened</span><span>Expires</span><span class="num">DTE</span><span class="num">Entry</span><span class="num">Mark</span><span class="num">P/L / ct</span><span class="num">P/L total</span><span class="num">Trend</span><span></span></div>`
         + ps.sort((a,b)=>(a.pl_pct??0)-(b.pl_pct??0)).map(posRow).join("")
       : `<div class="empty" style="border:none">No open contracts.</div>`;
     const insights = (meta.insights||[]).map(i=>`<div class="insight">${esc(i)}</div>`).join("");
