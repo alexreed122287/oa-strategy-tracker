@@ -386,26 +386,39 @@ def bucket_metrics(closed: list[dict]) -> dict:
     }
 
 
-def long_call_insight(metrics: dict, open_positions: list[dict]) -> list[str]:
+def strategy_insight(label: str, metrics: dict, open_positions: list[dict]) -> list[str]:
+    """Option Alpha-style narrative read on one bucket (a strategy structure or
+    a user-defined named group) — same logic whether it's 'Long Call' overall
+    or a specific scan like '1 Samurai Scan First'."""
     notes = []
     wr, pf = metrics.get("win_rate"), metrics.get("profit_factor")
     if metrics["trades"] == 0:
-        notes.append("No closed long calls yet — metrics will populate as trades resolve.")
+        notes.append(f"No closed trades yet in {label} — metrics will populate as positions resolve.")
     else:
         if pf is not None and pf != float("inf"):
             if pf >= 1.5:
-                notes.append(f"Profit factor {pf} — the long-call book is earning ${pf} for every $1 lost. Edge is real; protect it with consistent position sizing.")
+                notes.append(f"Profit factor {pf} — {label} is earning ${pf} for every $1 lost. Edge is real; protect it with consistent position sizing.")
             elif pf >= 1.0:
-                notes.append(f"Profit factor {pf} — marginally profitable. Long calls live or die on exit discipline: cutting losers at −50% and letting winners run past +100% is what moves this number.")
+                notes.append(f"Profit factor {pf} — marginally profitable. Results here live or die on exit discipline: cutting losers at −50% and letting winners run past +100% is what moves this number.")
             else:
-                notes.append(f"Profit factor {pf} — losses are outrunning wins. Review whether entries are chasing extended moves (buying calls after RSI > 70 is the most common leak).")
+                notes.append(f"Profit factor {pf} — losses are outrunning wins in {label}. Review whether entries are chasing extended moves (buying calls after RSI > 70 is the most common leak).")
         if wr is not None and wr < 45 and (metrics.get("avg_win") or 0) < abs(metrics.get("avg_loss") or 0):
             notes.append("Win rate under 45% with average losses larger than average wins — that combination is unsustainable; tighten stops or buy more time (60+ DTE) so the thesis has room to play out.")
         if wr is not None and wr >= 55:
-            notes.append(f"Win rate {wr}% is strong for long premium — most of the category's edge now comes from letting the biggest winners run.")
+            notes.append(f"Win rate {wr}% is strong for long premium — most of the edge now comes from letting the biggest winners run.")
     theta_heavy = [p for p in open_positions if p["dte"] <= 21]
     if theta_heavy:
-        notes.append(f"{len(theta_heavy)} open long call(s) inside 21 DTE — decay is now the dominant force on these; each day held is a real cost.")
+        notes.append(f"{len(theta_heavy)} open position(s) inside 21 DTE — decay is now the dominant force on these; each day held is a real cost.")
+    winners = [p for p in open_positions if (p.get("pl") or 0) > 0]
+    losers = [p for p in open_positions if (p.get("pl") or 0) < 0]
+    if open_positions:
+        open_wr = len(winners) / len(open_positions) * 100
+        if losers and not winners:
+            notes.append(f"All {len(losers)} open position(s) are underwater — no confirmation yet that this batch of entries is working.")
+        elif winners and not losers:
+            notes.append(f"All {len(winners)} open position(s) are in the green — thesis confirmed so far, but that can reverse fast with long premium.")
+        elif open_wr < 35:
+            notes.append(f"Only {open_wr:.0f}% of open positions are currently profitable — this batch is fighting the tape more than the historical win rate suggests.")
     return notes
 
 
@@ -437,8 +450,11 @@ def main():
                 if entry is not None:
                     history["entries"][tid] = entry
                     print(f"  entry backfilled from {trade['buy_date']} close: {entry}")
-            # same-day trade (or no backfill available): today's close mark
-            if entry is None and mark is not None and run_date >= trade["buy_date"]:
+            # genuine same-day trade: lock today's close mark as entry.
+            # (back-dated trades whose AV backfill hasn't resolved yet stay
+            # unset here on purpose, so a failed/rate-limited backfill can't
+            # silently mislock entry to today's price instead of buy_date's.)
+            if entry is None and mark is not None and run_date == trade["buy_date"]:
                 entry = mark
                 history["entries"][tid] = entry
                 print(f"  entry locked at close mark {entry}")
@@ -509,10 +525,12 @@ def main():
     for g in group_names:
         g_closed = [t for t in closed_out if t.get("group") == g]
         g_open = [p for p in open_out if p.get("group") == g]
+        g_metrics = bucket_metrics(g_closed)
         group_metrics[g] = {
-            "label": g, **bucket_metrics(g_closed),
+            "label": g, **g_metrics,
             "open_positions": len(g_open),
             "open_pl": round(sum(p["pl"] for p in g_open if p["pl"] is not None), 2),
+            "insights": strategy_insight(g, g_metrics, g_open),
         }
 
     lc_closed = by_strategy.get("long_call", [])
@@ -522,7 +540,7 @@ def main():
         **lc_metrics,
         "open_positions": len(lc_open),
         "open_pl": round(sum(p["pl"] for p in lc_open if p["pl"] is not None), 2),
-        "insights": long_call_insight(lc_metrics, lc_open),
+        "insights": strategy_insight("Long Call", lc_metrics, lc_open),
     }
 
     realized = sum(t["pl"] for t in closed_out)

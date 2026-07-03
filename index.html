@@ -318,6 +318,7 @@ function renderGroups(d){
       ? `<div class="p-cols"><span>Contract</span><span class="num">DTE</span><span class="num">Entry</span><span class="num">Mark</span><span class="num">P/L / ct</span><span class="num">P/L total</span><span class="num">Trend</span><span></span></div>`
         + ps.sort((a,b)=>(a.pl_pct??0)-(b.pl_pct??0)).map(posRow).join("")
       : `<div class="empty" style="border:none">No open contracts.</div>`;
+    const insights = (meta.insights||[]).map(i=>`<div class="insight">${esc(i)}</div>`).join("");
     return {name, pl, actions, html:
       `<details class="group" ${actions?"open":""}>
         <summary class="g-head">
@@ -330,6 +331,7 @@ function renderGroups(d){
           ${gstat("Realized", `<small>${realized}</small>`)}
           <span class="caret">▸</span>
         </summary>
+        ${insights?`<div style="padding:0 18px 4px">${insights}</div>`:""}
         ${rows}
       </details>`};
   });
