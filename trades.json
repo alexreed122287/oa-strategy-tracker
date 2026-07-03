@@ -625,5 +625,841 @@
       }
     ],
     "status": "open"
+  },
+  {
+    "id": "GGPE-AMD-410C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "AMD",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 127.1,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 410.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGPE-DASH-150C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "DASH",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 44.83,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 150.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGPE-DELL-320C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "DELL",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 91.25,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 320.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGPE-HOOD-90C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "HOOD",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 26.53,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 90.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGPE-NVDA-170C-0807-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "NVDA",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-07",
+    "contracts": 1,
+    "entry_price": 27.38,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 170.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGPE-TSLA-320C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "TSLA",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 79.3,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 320.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGPE-TSM-350C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_Positive Expectancy",
+    "symbol": "TSM",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 93.28,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 350.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-AAP-51C-0807-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "AAP",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-07",
+    "contracts": 1,
+    "entry_price": 11.45,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 51.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-ALL-230C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "ALL",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 23.7,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 230.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-AMR-125C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "AMR",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 37.75,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 125.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-ANF-75C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "ANF",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 18.8,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 75.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-B-29C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "B",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 9.33,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 29.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-BALL-57_5C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "BALL",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 6.75,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 57.5,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-BBY-67_5C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "BBY",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 10.9,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 67.5,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-CASY-700C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "CASY",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 106.95,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 700.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-CB-325C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "CB",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 39.7,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 325.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-CINF-170C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "CINF",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 23.45,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 170.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-CTVA-75C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "CTVA",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 11.35,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 75.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-DLTR-109C-0807-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "DLTR",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-07",
+    "contracts": 1,
+    "entry_price": 16.95,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 109.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-DVN-30C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "DVN",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 10.85,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 30.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-FANG-150C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "FANG",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 24.4,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 150.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-FDX-280C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "FDX",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 37.8,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 280.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-HPQ-18C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "HPQ",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 4.2,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 18.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-M-17C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "M",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 6.5,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 17.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-MCY-90C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "MCY",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 21.2,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 90.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-MET-85C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "MET",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 6.1,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 85.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-MGM-40C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "MGM",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 7.7,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 40.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-MRP-22_5C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "MRP",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 6.8,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 22.5,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-OII-30C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "OII",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 8.9,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 30.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "GGHRS-PAAS-35C-0821-0702",
+    "strategy": "long_call",
+    "group": "GG_High Relative Strength",
+    "symbol": "PAAS",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 11.8,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 35.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-AVGO-350C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "AVGO",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 20.33,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 350.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-NVDA-190C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "NVDA",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 8.78,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 190.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-TSLA-385C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "TSLA",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 18.58,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 385.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-CRM-165C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "CRM",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 6.18,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 165.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-LYFT-15C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "LYFT",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 0.8,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 15.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-PLTR-127C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "PLTR",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 6.7,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 127.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-WMT-111C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "WMT",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 2.72,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 111.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-JD-26C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "JD",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 1.2,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 26.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-NEE-87_5C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "NEE",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 2.13,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 87.5,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-XOM-137C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "XOM",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 3.07,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 137.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-HPQ-21C-0821-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "HPQ",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-08-21",
+    "contracts": 1,
+    "entry_price": 1.94,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 21.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-IOT-36C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "IOT",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 1.7,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 36.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-NKE-44C-0717-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "NKE",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-17",
+    "contracts": 1,
+    "entry_price": 1.35,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 44.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "id": "SAM1-BAC-58C-0724-0702",
+    "strategy": "long_call",
+    "group": "1 Samurai Scan First",
+    "symbol": "BAC",
+    "buy_date": "2026-07-02",
+    "expiration": "2026-07-24",
+    "contracts": 1,
+    "entry_price": 1.95,
+    "legs": [
+      {
+        "type": "call",
+        "side": "long",
+        "strike": 58.0,
+        "qty": 1
+      }
+    ],
+    "status": "open"
   }
 ]
