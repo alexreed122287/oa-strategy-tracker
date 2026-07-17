@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T22:16:12.669022+00:00",
-  "as_of": "2026-07-16",
+  "generated": "2026-07-17T22:07:43.674972+00:00",
+  "as_of": "2026-07-17",
   "source": "tradier",
   "overall": {
     "trades": 0,
@@ -24,10 +24,10 @@
     "expectancy": null,
     "total_pl": 0,
     "open_positions": 77,
-    "open_pl": -20925.5,
+    "open_pl": -26124.5,
     "insights": [
       "No closed trades yet in Long Call \u2014 metrics will populate as positions resolve.",
-      "22 open position(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost."
+      "30 open position(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost."
     ]
   },
   "strategies": {},
@@ -44,7 +44,7 @@
       "expectancy": null,
       "total_pl": 0,
       "open_positions": 25,
-      "open_pl": 2937.5,
+      "open_pl": -1431.5,
       "insights": [
         "No closed trades yet in 1 Samurai Scan First \u2014 metrics will populate as positions resolve.",
         "22 open position(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost."
@@ -62,7 +62,7 @@
       "expectancy": null,
       "total_pl": 0,
       "open_positions": 1,
-      "open_pl": -860.0,
+      "open_pl": -895.0,
       "insights": [
         "No closed trades yet in GG_Core Leadership \u2014 metrics will populate as positions resolve.",
         "All 1 open position(s) are underwater \u2014 no confirmation yet that this batch of entries is working."
@@ -80,9 +80,10 @@
       "expectancy": null,
       "total_pl": 0,
       "open_positions": 39,
-      "open_pl": 2102.5,
+      "open_pl": 5890.0,
       "insights": [
-        "No closed trades yet in GG_High Relative Strength \u2014 metrics will populate as positions resolve."
+        "No closed trades yet in GG_High Relative Strength \u2014 metrics will populate as positions resolve.",
+        "5 open position(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost."
       ]
     },
     "GG_Positive Expectancy": {
@@ -97,9 +98,10 @@
       "expectancy": null,
       "total_pl": 0,
       "open_positions": 12,
-      "open_pl": -25105.5,
+      "open_pl": -29688.0,
       "insights": [
         "No closed trades yet in GG_Positive Expectancy \u2014 metrics will populate as positions resolve.",
+        "3 open position(s) inside 21 DTE \u2014 decay is now the dominant force on these; each day held is a real cost.",
         "Only 17% of open positions are currently profitable \u2014 this batch is fighting the tape more than the historical win rate suggests."
       ]
     }
@@ -113,7 +115,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -124,15 +126,15 @@
         }
       ],
       "entry_price": 9.33,
-      "mark": 15.075,
-      "pl": 574.5,
-      "pl_pct": 61.6,
+      "mark": 10.25,
+      "pl": 92.0,
+      "pl_pct": 9.9,
       "technicals": {
-        "price": 207.4,
-        "rsi": 52.1,
-        "sma20": 202.22,
-        "sma50": 209.79,
-        "macd_hist": 1.7
+        "price": 202.81,
+        "rsi": 48.2,
+        "sma20": 202.12,
+        "sma50": 209.91,
+        "macd_hist": 1.178
       },
       "sparkline": [
         7.225,
@@ -145,16 +147,13 @@
         11.825,
         19.6,
         20.025,
-        15.075
+        15.075,
+        10.25
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Up 62% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
-        },
-        {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
@@ -171,7 +170,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -182,15 +181,15 @@
         }
       ],
       "entry_price": 7.58,
-      "mark": 12.625,
-      "pl": 504.5,
-      "pl_pct": 66.6,
+      "mark": 11.05,
+      "pl": 347.0,
+      "pl_pct": 45.8,
       "technicals": {
-        "price": 172.68,
-        "rsi": 56.1,
-        "sma20": 161.08,
-        "sma50": 171.91,
-        "macd_hist": 1.881
+        "price": 170.77,
+        "rsi": 53.9,
+        "sma20": 161.87,
+        "sma50": 171.58,
+        "macd_hist": 1.808
       },
       "sparkline": [
         9.175,
@@ -203,16 +202,17 @@
         11.375,
         8.075,
         7.7,
-        12.625
+        12.625,
+        11.05
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Up 67% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "level": "warn",
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         }
       ],
       "notes": ""
@@ -225,7 +225,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -236,15 +236,15 @@
         }
       ],
       "entry_price": 7.55,
-      "mark": 12.35,
-      "pl": 480.0,
-      "pl_pct": 63.6,
+      "mark": 10.275,
+      "pl": 272.5,
+      "pl_pct": 36.1,
       "technicals": {
-        "price": 134.44,
-        "rsi": 55.7,
-        "sma20": 125.17,
-        "sma50": 132.55,
-        "macd_hist": 1.749
+        "price": 132.38,
+        "rsi": 53.0,
+        "sma20": 125.25,
+        "sma50": 132.48,
+        "macd_hist": 1.526
       },
       "sparkline": [
         9.95,
@@ -257,16 +257,17 @@
         8.825,
         12.2,
         12.0,
-        12.35
+        12.35,
+        10.275
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Up 64% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "level": "warn",
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         }
       ],
       "notes": ""
@@ -279,7 +280,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -290,15 +291,15 @@
         }
       ],
       "entry_price": 21.53,
-      "mark": 0.145,
-      "pl": -2138.5,
-      "pl_pct": -99.3,
+      "mark": 0.04,
+      "pl": -2149.0,
+      "pl_pct": -99.8,
       "technicals": {
-        "price": 391.06,
-        "rsi": 46.0,
-        "sma20": 398.63,
-        "sma50": 409.97,
-        "macd_hist": -0.818
+        "price": 380.84,
+        "rsi": 42.6,
+        "sma20": 397.85,
+        "sma50": 409.8,
+        "macd_hist": -1.671
       },
       "sparkline": [
         6.1,
@@ -311,16 +312,17 @@
         1.845,
         1.325,
         0.645,
-        0.145
+        0.145,
+        0.04
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Down 99% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+          "text": "Down 100% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
         },
         {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         },
         {
           "level": "warn",
@@ -345,7 +347,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -356,15 +358,15 @@
         }
       ],
       "entry_price": 0.55,
-      "mark": 1.22,
-      "pl": 67.0,
-      "pl_pct": 121.8,
+      "mark": 0.885,
+      "pl": 33.5,
+      "pl_pct": 60.9,
       "technicals": {
-        "price": 26.23,
-        "rsi": 66.4,
-        "sma20": 24.27,
-        "sma50": 23.82,
-        "macd_hist": 0.142
+        "price": 25.88,
+        "rsi": 62.5,
+        "sma20": 24.4,
+        "sma50": 23.88,
+        "macd_hist": 0.135
       },
       "sparkline": [
         0.765,
@@ -377,16 +379,17 @@
         0.465,
         0.405,
         0.595,
-        1.22
+        1.22,
+        0.885
       ],
       "recommendations": [
         {
-          "level": "action",
-          "text": "Up 122% \u2014 consider taking profit or selling half to lock in the original debit."
+          "level": "watch",
+          "text": "Up 61% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         }
       ],
       "notes": ""
@@ -399,7 +402,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -410,15 +413,15 @@
         }
       ],
       "entry_price": 14.4,
-      "mark": 7.575,
-      "pl": -682.5,
-      "pl_pct": -47.4,
+      "mark": 1.9,
+      "pl": -1250.0,
+      "pl_pct": -86.8,
       "technicals": {
-        "price": 374.45,
-        "rsi": 45.0,
-        "sma20": 382.94,
-        "sma50": 404.07,
-        "macd_hist": 1.926
+        "price": 370.82,
+        "rsi": 43.8,
+        "sma20": 381.84,
+        "sma50": 402.94,
+        "macd_hist": 0.858
       },
       "sparkline": [
         9.925,
@@ -431,12 +434,17 @@
         17.75,
         21.3,
         25.1,
-        7.575
+        7.575,
+        1.9
       ],
       "recommendations": [
         {
+          "level": "action",
+          "text": "Down 87% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         },
         {
           "level": "warn",
@@ -457,7 +465,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -468,15 +476,15 @@
         }
       ],
       "entry_price": 2.25,
-      "mark": 1.725,
-      "pl": -52.5,
-      "pl_pct": -23.3,
+      "mark": 0.13,
+      "pl": -212.0,
+      "pl_pct": -94.2,
       "technicals": {
-        "price": 74.04,
-        "rsi": 52.7,
-        "sma20": 73.15,
-        "sma50": 72.98,
-        "macd_hist": -0.003
+        "price": 72.46,
+        "rsi": 48.4,
+        "sma20": 73.23,
+        "sma50": 72.97,
+        "macd_hist": -0.082
       },
       "sparkline": [
         3.275,
@@ -489,12 +497,25 @@
         2.39,
         0.9,
         1.05,
-        1.725
+        1.725,
+        0.13
       ],
       "recommendations": [
         {
+          "level": "action",
+          "text": "Down 94% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         },
         {
           "level": "watch",
@@ -511,7 +532,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -522,15 +543,15 @@
         }
       ],
       "entry_price": 4.23,
-      "mark": 21.45,
-      "pl": 1722.0,
-      "pl_pct": 407.1,
+      "mark": 18.175,
+      "pl": 1394.5,
+      "pl_pct": 329.7,
       "technicals": {
-        "price": 117.49,
-        "rsi": 62.5,
-        "sma20": 104.29,
-        "sma50": 118.76,
-        "macd_hist": 3.077
+        "price": 114.97,
+        "rsi": 57.4,
+        "sma20": 104.66,
+        "sma50": 118.42,
+        "macd_hist": 2.817
       },
       "sparkline": [
         3.1,
@@ -543,16 +564,17 @@
         15.4,
         15.225,
         20.75,
-        21.45
+        21.45,
+        18.175
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Up 407% \u2014 consider taking profit or selling half to lock in the original debit."
+          "text": "Up 330% \u2014 consider taking profit or selling half to lock in the original debit."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
@@ -569,7 +591,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -580,15 +602,15 @@
         }
       ],
       "entry_price": 1.95,
-      "mark": 3.975,
-      "pl": 202.5,
-      "pl_pct": 103.8,
+      "mark": 3.75,
+      "pl": 180.0,
+      "pl_pct": 92.3,
       "technicals": {
-        "price": 61.49,
-        "rsi": 72.1,
-        "sma20": 58.7,
-        "sma50": 54.95,
-        "macd_hist": 0.119
+        "price": 61.27,
+        "rsi": 70.2,
+        "sma20": 58.93,
+        "sma50": 55.12,
+        "macd_hist": 0.097
       },
       "sparkline": [
         2.115,
@@ -601,20 +623,21 @@
         2.365,
         3.2,
         4.125,
-        3.975
+        3.975,
+        3.75
       ],
       "recommendations": [
         {
-          "level": "action",
-          "text": "Up 104% \u2014 consider taking profit or selling half to lock in the original debit."
+          "level": "watch",
+          "text": "Up 92% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "watch",
-          "text": "RSI 72 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+          "text": "RSI 70 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
         }
       ],
       "notes": ""
@@ -627,7 +650,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -638,15 +661,15 @@
         }
       ],
       "entry_price": 20.33,
-      "mark": 24.65,
-      "pl": 432.0,
-      "pl_pct": 21.2,
+      "mark": 21.125,
+      "pl": 79.5,
+      "pl_pct": 3.9,
       "technicals": {
-        "price": 374.45,
-        "rsi": 45.0,
-        "sma20": 382.94,
-        "sma50": 404.07,
-        "macd_hist": 1.926
+        "price": 370.82,
+        "rsi": 43.8,
+        "sma20": 381.84,
+        "sma50": 402.94,
+        "macd_hist": 0.858
       },
       "sparkline": [
         20.325,
@@ -658,12 +681,13 @@
         35.375,
         40.475,
         44.7,
-        24.65
+        24.65,
+        21.125
       ],
       "recommendations": [
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
@@ -684,7 +708,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -695,15 +719,15 @@
         }
       ],
       "entry_price": 8.78,
-      "mark": 17.2,
-      "pl": 842.0,
-      "pl_pct": 95.9,
+      "mark": 12.025,
+      "pl": 324.5,
+      "pl_pct": 37.0,
       "technicals": {
-        "price": 207.4,
-        "rsi": 52.1,
-        "sma20": 202.22,
-        "sma50": 209.79,
-        "macd_hist": 1.7
+        "price": 202.81,
+        "rsi": 48.2,
+        "sma20": 202.12,
+        "sma50": 209.91,
+        "macd_hist": 1.178
       },
       "sparkline": [
         8.775,
@@ -715,16 +739,13 @@
         14.1,
         22.05,
         22.575,
-        17.2
+        17.2,
+        12.025
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Up 96% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
-        },
-        {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
@@ -741,7 +762,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -752,15 +773,15 @@
         }
       ],
       "entry_price": 18.58,
-      "mark": 7.775,
-      "pl": -1080.5,
-      "pl_pct": -58.2,
+      "mark": 0.01,
+      "pl": -1857.0,
+      "pl_pct": -99.9,
       "technicals": {
-        "price": 391.06,
-        "rsi": 46.0,
-        "sma20": 398.63,
-        "sma50": 409.97,
-        "macd_hist": -0.818
+        "price": 380.84,
+        "rsi": 42.6,
+        "sma20": 397.85,
+        "sma50": 409.8,
+        "macd_hist": -1.671
       },
       "sparkline": [
         18.575,
@@ -772,16 +793,17 @@
         13.95,
         13.825,
         11.55,
-        7.775
+        7.775,
+        0.01
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Down 58% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+          "text": "Down 100% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
         },
         {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         },
         {
           "level": "warn",
@@ -806,7 +828,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -817,15 +839,15 @@
         }
       ],
       "entry_price": 6.18,
-      "mark": 7.85,
-      "pl": 167.0,
-      "pl_pct": 27.0,
+      "mark": 6.35,
+      "pl": 17.0,
+      "pl_pct": 2.8,
       "technicals": {
-        "price": 172.68,
-        "rsi": 56.1,
-        "sma20": 161.08,
-        "sma50": 171.91,
-        "macd_hist": 1.881
+        "price": 170.77,
+        "rsi": 53.9,
+        "sma20": 161.87,
+        "sma50": 171.58,
+        "macd_hist": 1.808
       },
       "sparkline": [
         6.175,
@@ -837,12 +859,17 @@
         7.9,
         4.6,
         3.6,
-        7.85
+        7.85,
+        6.35
       ],
       "recommendations": [
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         }
       ],
       "notes": ""
@@ -855,7 +882,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -866,15 +893,15 @@
         }
       ],
       "entry_price": 0.8,
-      "mark": 1.075,
-      "pl": 27.5,
-      "pl_pct": 34.4,
+      "mark": 0.515,
+      "pl": -28.5,
+      "pl_pct": -35.6,
       "technicals": {
-        "price": 15.98,
-        "rsi": 63.0,
-        "sma20": 15.01,
-        "sma50": 14.3,
-        "macd_hist": 0.092
+        "price": 15.52,
+        "rsi": 56.4,
+        "sma20": 15.07,
+        "sma50": 14.32,
+        "macd_hist": 0.046
       },
       "sparkline": [
         0.795,
@@ -886,12 +913,13 @@
         0.785,
         0.74,
         1.305,
-        1.075
+        1.075,
+        0.515
       ],
       "recommendations": [
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         }
       ],
       "notes": ""
@@ -904,7 +932,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -915,15 +943,15 @@
         }
       ],
       "entry_price": 6.7,
-      "mark": 7.55,
-      "pl": 85.0,
-      "pl_pct": 12.7,
+      "mark": 5.275,
+      "pl": -142.5,
+      "pl_pct": -21.3,
       "technicals": {
-        "price": 134.44,
-        "rsi": 55.7,
-        "sma20": 125.17,
-        "sma50": 132.55,
-        "macd_hist": 1.749
+        "price": 132.38,
+        "rsi": 53.0,
+        "sma20": 125.25,
+        "sma50": 132.48,
+        "macd_hist": 1.526
       },
       "sparkline": [
         6.7,
@@ -935,12 +963,17 @@
         5.0,
         7.6,
         7.025,
-        7.55
+        7.55,
+        5.275
       ],
       "recommendations": [
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         }
       ],
       "notes": ""
@@ -953,7 +986,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -964,15 +997,15 @@
         }
       ],
       "entry_price": 2.72,
-      "mark": 4.85,
-      "pl": 213.0,
-      "pl_pct": 78.3,
+      "mark": 3.7,
+      "pl": 98.0,
+      "pl_pct": 36.0,
       "technicals": {
-        "price": 114.95,
-        "rsi": 48.1,
-        "sma20": 114.41,
-        "sma50": 119.97,
-        "macd_hist": 0.452
+        "price": 114.24,
+        "rsi": 46.4,
+        "sma20": 114.22,
+        "sma50": 119.64,
+        "macd_hist": 0.492
       },
       "sparkline": [
         2.72,
@@ -984,16 +1017,13 @@
         4.125,
         3.06,
         1.98,
-        4.85
+        4.85,
+        3.7
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Up 78% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
-        },
-        {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "warn",
@@ -1010,7 +1040,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -1021,15 +1051,15 @@
         }
       ],
       "entry_price": 1.2,
-      "mark": 3.675,
-      "pl": 247.5,
-      "pl_pct": 206.2,
+      "mark": 3.525,
+      "pl": 232.5,
+      "pl_pct": 193.8,
       "technicals": {
-        "price": 29.68,
-        "rsi": 65.4,
-        "sma20": 27.09,
+        "price": 29.62,
+        "rsi": 64.7,
+        "sma20": 27.18,
         "sma50": 28.91,
-        "macd_hist": 0.492
+        "macd_hist": 0.479
       },
       "sparkline": [
         1.2,
@@ -1041,16 +1071,17 @@
         2.675,
         2.93,
         3.35,
-        3.675
+        3.675,
+        3.525
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Up 206% \u2014 consider taking profit or selling half to lock in the original debit."
+          "text": "Up 194% \u2014 consider taking profit or selling half to lock in the original debit."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         }
       ],
       "notes": ""
@@ -1063,7 +1094,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -1074,15 +1105,15 @@
         }
       ],
       "entry_price": 2.13,
-      "mark": 1.97,
-      "pl": -16.0,
-      "pl_pct": -7.5,
+      "mark": 1.1,
+      "pl": -103.0,
+      "pl_pct": -48.4,
       "technicals": {
-        "price": 89.35,
-        "rsi": 56.5,
-        "sma20": 87.74,
-        "sma50": 88.47,
-        "macd_hist": 0.31
+        "price": 88.8,
+        "rsi": 53.7,
+        "sma20": 87.89,
+        "sma50": 88.32,
+        "macd_hist": 0.26
       },
       "sparkline": [
         2.13,
@@ -1094,12 +1125,13 @@
         1.415,
         2.295,
         1.67,
-        1.97
+        1.97,
+        1.1
       ],
       "recommendations": [
         {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         }
       ],
       "notes": ""
@@ -1112,7 +1144,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -1123,15 +1155,15 @@
         }
       ],
       "entry_price": 3.07,
-      "mark": 9.125,
-      "pl": 605.5,
-      "pl_pct": 197.2,
+      "mark": 10.825,
+      "pl": 775.5,
+      "pl_pct": 252.6,
       "technicals": {
-        "price": 145.95,
-        "rsi": 57.1,
-        "sma20": 139.48,
-        "sma50": 146.13,
-        "macd_hist": 1.394
+        "price": 147.36,
+        "rsi": 59.4,
+        "sma20": 139.81,
+        "sma50": 145.98,
+        "macd_hist": 1.488
       },
       "sparkline": [
         3.065,
@@ -1143,20 +1175,17 @@
         8.025,
         8.0,
         7.475,
-        9.125
+        9.125,
+        10.825
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Up 197% \u2014 consider taking profit or selling half to lock in the original debit."
+          "text": "Up 253% \u2014 consider taking profit or selling half to lock in the original debit."
         },
         {
           "level": "warn",
-          "text": "1 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
-        },
-        {
-          "level": "warn",
-          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         }
       ],
       "notes": ""
@@ -1169,7 +1198,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -1180,15 +1209,15 @@
         }
       ],
       "entry_price": 1.7,
-      "mark": 1.65,
-      "pl": -5.0,
-      "pl_pct": -2.9,
+      "mark": 1.9,
+      "pl": 20.0,
+      "pl_pct": 11.8,
       "technicals": {
-        "price": 37.46,
-        "rsi": 63.7,
-        "sma20": 34.17,
-        "sma50": 32.8,
-        "macd_hist": 0.257
+        "price": 38.32,
+        "rsi": 66.5,
+        "sma20": 34.5,
+        "sma50": 32.96,
+        "macd_hist": 0.278
       },
       "sparkline": [
         1.7,
@@ -1200,12 +1229,13 @@
         1.5,
         1.725,
         1.1,
-        1.65
+        1.65,
+        1.9
       ],
       "recommendations": [
         {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         }
       ],
       "notes": ""
@@ -1218,7 +1248,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-17",
-      "dte": 1,
+      "dte": 0,
       "contracts": 1,
       "legs": [
         {
@@ -1229,15 +1259,15 @@
         }
       ],
       "entry_price": 1.35,
-      "mark": 0.695,
-      "pl": -65.5,
-      "pl_pct": -48.5,
+      "mark": 0.01,
+      "pl": -134.0,
+      "pl_pct": -99.3,
       "technicals": {
-        "price": 44.57,
-        "rsi": 55.4,
-        "sma20": 42.93,
-        "sma50": 43.61,
-        "macd_hist": 0.197
+        "price": 43.76,
+        "rsi": 51.4,
+        "sma20": 42.91,
+        "sma50": 43.62,
+        "macd_hist": 0.19
       },
       "sparkline": [
         1.345,
@@ -1249,12 +1279,17 @@
         0.59,
         0.215,
         0.12,
-        0.695
+        0.695,
+        0.01
       ],
       "recommendations": [
         {
+          "level": "action",
+          "text": "Down 99% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
           "level": "warn",
-          "text": "1 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
+          "text": "0 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         }
       ],
       "notes": ""
@@ -1267,7 +1302,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-07-24",
-      "dte": 8,
+      "dte": 7,
       "contracts": 1,
       "legs": [
         {
@@ -1278,15 +1313,15 @@
         }
       ],
       "entry_price": 1.95,
-      "mark": 3.575,
-      "pl": 162.5,
-      "pl_pct": 83.3,
+      "mark": 3.35,
+      "pl": 140.0,
+      "pl_pct": 71.8,
       "technicals": {
-        "price": 61.49,
-        "rsi": 72.1,
-        "sma20": 58.7,
-        "sma50": 54.95,
-        "macd_hist": 0.119
+        "price": 61.27,
+        "rsi": 70.2,
+        "sma20": 58.93,
+        "sma50": 55.12,
+        "macd_hist": 0.097
       },
       "sparkline": [
         1.945,
@@ -1298,16 +1333,21 @@
         2.24,
         2.9,
         3.725,
-        3.575
+        3.575,
+        3.35
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 83% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "text": "Up 72% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+        },
+        {
+          "level": "warn",
+          "text": "7 DTE \u2014 final-week gamma/theta zone. Close or roll unless you want an expiration outcome."
         },
         {
           "level": "watch",
-          "text": "RSI 72 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+          "text": "RSI 70 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
         }
       ],
       "notes": ""
@@ -1320,7 +1360,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1331,15 +1371,15 @@
         }
       ],
       "entry_price": 30.1,
-      "mark": 37.775,
-      "pl": 767.5,
-      "pl_pct": 25.5,
+      "mark": 33.975,
+      "pl": 387.5,
+      "pl_pct": 12.9,
       "technicals": {
-        "price": 207.4,
-        "rsi": 52.1,
-        "sma20": 202.22,
-        "sma50": 209.79,
-        "macd_hist": 1.7
+        "price": 202.81,
+        "rsi": 48.2,
+        "sma20": 202.12,
+        "sma50": 209.91,
+        "macd_hist": 1.178
       },
       "sparkline": [
         27.375,
@@ -1352,7 +1392,8 @@
         34.975,
         42.8,
         42.425,
-        37.775
+        37.775,
+        33.975
       ],
       "recommendations": [
         {
@@ -1370,7 +1411,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1381,15 +1422,15 @@
         }
       ],
       "entry_price": 58.63,
-      "mark": 29.0,
-      "pl": -2963.0,
-      "pl_pct": -50.5,
+      "mark": 22.075,
+      "pl": -3655.5,
+      "pl_pct": -62.3,
       "technicals": {
-        "price": 391.06,
-        "rsi": 46.0,
-        "sma20": 398.63,
-        "sma50": 409.97,
-        "macd_hist": -0.818
+        "price": 380.84,
+        "rsi": 42.6,
+        "sma20": 397.85,
+        "sma50": 409.8,
+        "macd_hist": -1.671
       },
       "sparkline": [
         33.7,
@@ -1402,12 +1443,17 @@
         32.15,
         32.925,
         31.675,
-        29.0
+        29.0,
+        22.075
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Down 51% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+          "text": "Down 62% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
+          "level": "warn",
+          "text": "21 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         },
         {
           "level": "warn",
@@ -1432,7 +1478,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1443,15 +1489,15 @@
         }
       ],
       "entry_price": 12.3,
-      "mark": 20.6,
-      "pl": 830.0,
-      "pl_pct": 67.5,
+      "mark": 20.275,
+      "pl": 797.5,
+      "pl_pct": 64.8,
       "technicals": {
-        "price": 140.21,
-        "rsi": 62.8,
-        "sma20": 133.47,
-        "sma50": 129.0,
-        "macd_hist": 0.517
+        "price": 139.6,
+        "rsi": 61.6,
+        "sma20": 134.06,
+        "sma50": 129.22,
+        "macd_hist": 0.617
       },
       "sparkline": [
         12.325,
@@ -1464,12 +1510,13 @@
         15.775,
         14.85,
         18.8,
-        20.6
+        20.6,
+        20.275
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 67% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "text": "Up 65% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -1482,7 +1529,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1493,15 +1540,15 @@
         }
       ],
       "entry_price": 10.0,
-      "mark": 2.45,
-      "pl": -755.0,
-      "pl_pct": -75.5,
+      "mark": 2.4,
+      "pl": -760.0,
+      "pl_pct": -76.0,
       "technicals": {
-        "price": 53.13,
-        "rsi": 41.1,
-        "sma20": 57.6,
-        "sma50": 56.8,
-        "macd_hist": -0.794
+        "price": 53.16,
+        "rsi": 41.2,
+        "sma20": 57.36,
+        "sma50": 56.72,
+        "macd_hist": -0.748
       },
       "sparkline": [
         8.75,
@@ -1513,12 +1560,17 @@
         4.05,
         4.05,
         2.375,
-        2.45
+        2.45,
+        2.4
       ],
       "recommendations": [
         {
           "level": "action",
           "text": "Down 76% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
+          "level": "warn",
+          "text": "21 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         },
         {
           "level": "warn",
@@ -1543,7 +1595,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1554,15 +1606,15 @@
         }
       ],
       "entry_price": 14.08,
-      "mark": 20.15,
-      "pl": 607.0,
-      "pl_pct": 43.1,
+      "mark": 17.875,
+      "pl": 379.5,
+      "pl_pct": 27.0,
       "technicals": {
-        "price": 128.45,
-        "rsi": 65.6,
-        "sma20": 120.78,
-        "sma50": 109.22,
-        "macd_hist": 0.078
+        "price": 125.94,
+        "rsi": 60.7,
+        "sma20": 121.76,
+        "sma50": 109.87,
+        "macd_hist": -0.076
       },
       "sparkline": [
         16.95,
@@ -1575,12 +1627,13 @@
         18.65,
         16.55,
         18.65,
-        20.15
+        20.15,
+        17.875
       ],
       "recommendations": [
         {
-          "level": "hold",
-          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
         }
       ],
       "notes": ""
@@ -1593,7 +1646,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1604,15 +1657,15 @@
         }
       ],
       "entry_price": 27.38,
-      "mark": 37.775,
-      "pl": 1039.5,
-      "pl_pct": 38.0,
+      "mark": 33.975,
+      "pl": 659.5,
+      "pl_pct": 24.1,
       "technicals": {
-        "price": 207.4,
-        "rsi": 52.1,
-        "sma20": 202.22,
-        "sma50": 209.79,
-        "macd_hist": 1.7
+        "price": 202.81,
+        "rsi": 48.2,
+        "sma20": 202.12,
+        "sma50": 209.91,
+        "macd_hist": 1.178
       },
       "sparkline": [
         27.375,
@@ -1624,7 +1677,8 @@
         34.975,
         42.8,
         42.425,
-        37.775
+        37.775,
+        33.975
       ],
       "recommendations": [
         {
@@ -1642,7 +1696,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1657,11 +1711,11 @@
       "pl": -740.0,
       "pl_pct": -64.6,
       "technicals": {
-        "price": 53.13,
-        "rsi": 41.1,
-        "sma20": 57.6,
-        "sma50": 56.8,
-        "macd_hist": -0.794
+        "price": 53.16,
+        "rsi": 41.2,
+        "sma20": 57.36,
+        "sma50": 56.72,
+        "macd_hist": -0.748
       },
       "sparkline": [
         11.45,
@@ -1673,12 +1727,17 @@
         6.4,
         6.05,
         3.65,
+        4.05,
         4.05
       ],
       "recommendations": [
         {
           "level": "action",
           "text": "Down 65% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+        },
+        {
+          "level": "warn",
+          "text": "21 DTE and underwater \u2014 time decay steepens from here; the probability of recovery drops sharply."
         },
         {
           "level": "warn",
@@ -1703,7 +1762,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-07",
-      "dte": 22,
+      "dte": 21,
       "contracts": 1,
       "legs": [
         {
@@ -1714,15 +1773,15 @@
         }
       ],
       "entry_price": 16.95,
-      "mark": 20.15,
-      "pl": 320.0,
-      "pl_pct": 18.9,
+      "mark": 17.875,
+      "pl": 92.5,
+      "pl_pct": 5.5,
       "technicals": {
-        "price": 128.45,
-        "rsi": 65.6,
-        "sma20": 120.78,
-        "sma50": 109.22,
-        "macd_hist": 0.078
+        "price": 125.94,
+        "rsi": 60.7,
+        "sma20": 121.76,
+        "sma50": 109.87,
+        "macd_hist": -0.076
       },
       "sparkline": [
         16.95,
@@ -1734,12 +1793,13 @@
         18.65,
         16.55,
         18.65,
-        20.15
+        20.15,
+        17.875
       ],
       "recommendations": [
         {
-          "level": "hold",
-          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+          "level": "watch",
+          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
         }
       ],
       "notes": ""
@@ -1752,7 +1812,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -1763,15 +1823,15 @@
         }
       ],
       "entry_price": 408.85,
-      "mark": 332.25,
-      "pl": -7660.0,
-      "pl_pct": -18.7,
+      "mark": 305.5,
+      "pl": -10335.0,
+      "pl_pct": -25.3,
       "technicals": {
-        "price": 1784.87,
-        "rsi": 50.5,
-        "sma20": 1821.65,
-        "sma50": 1712.39,
-        "macd_hist": -14.174
+        "price": 1747.58,
+        "rsi": 48.0,
+        "sma20": 1815.64,
+        "sma50": 1718.48,
+        "macd_hist": -15.192
       },
       "sparkline": [
         349.75,
@@ -1784,7 +1844,8 @@
         297.2,
         337.6,
         367.25,
-        332.25
+        332.25,
+        305.5
       ],
       "recommendations": [
         {
@@ -1806,7 +1867,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -1817,15 +1878,15 @@
         }
       ],
       "entry_price": 5.58,
-      "mark": 4.9,
-      "pl": -68.0,
-      "pl_pct": -12.2,
+      "mark": 5.2,
+      "pl": -38.0,
+      "pl_pct": -6.8,
       "technicals": {
-        "price": 34.2,
-        "rsi": 52.7,
-        "sma20": 33.7,
-        "sma50": 32.51,
-        "macd_hist": 0.084
+        "price": 34.44,
+        "rsi": 53.7,
+        "sma20": 33.83,
+        "sma50": 32.55,
+        "macd_hist": 0.008
       },
       "sparkline": [
         5.9,
@@ -1838,7 +1899,8 @@
         6.925,
         6.9,
         5.6,
-        4.9
+        4.9,
+        5.2
       ],
       "recommendations": [
         {
@@ -1856,7 +1918,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -1867,15 +1929,15 @@
         }
       ],
       "entry_price": 279.25,
-      "mark": 183.7,
-      "pl": -9555.0,
-      "pl_pct": -34.2,
+      "mark": 205.25,
+      "pl": -7400.0,
+      "pl_pct": -26.5,
       "technicals": {
-        "price": 1036.22,
-        "rsi": 47.4,
-        "sma20": 1085.07,
-        "sma50": 1037.05,
-        "macd_hist": -9.125
+        "price": 1057.84,
+        "rsi": 50.1,
+        "sma20": 1085.52,
+        "sma50": 1036.3,
+        "macd_hist": -8.552
       },
       "sparkline": [
         263.1,
@@ -1888,16 +1950,13 @@
         191.9,
         213.3,
         201.1,
-        183.7
+        183.7,
+        205.25
       ],
       "recommendations": [
         {
           "level": "warn",
           "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
-        },
-        {
-          "level": "warn",
-          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         },
         {
           "level": "watch",
@@ -1914,7 +1973,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -1925,15 +1984,15 @@
         }
       ],
       "entry_price": 3.55,
-      "mark": 5.125,
-      "pl": 157.5,
-      "pl_pct": 44.4,
+      "mark": 5.975,
+      "pl": 242.5,
+      "pl_pct": 68.3,
       "technicals": {
-        "price": 24.14,
-        "rsi": 54.1,
-        "sma20": 23.32,
-        "sma50": 23.57,
-        "macd_hist": 0.135
+        "price": 24.84,
+        "rsi": 58.9,
+        "sma20": 23.41,
+        "sma50": 23.64,
+        "macd_hist": 0.165
       },
       "sparkline": [
         3.4,
@@ -1946,12 +2005,13 @@
         5.65,
         5.95,
         5.2,
-        5.125
+        5.125,
+        5.975
       ],
       "recommendations": [
         {
-          "level": "hold",
-          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+          "level": "watch",
+          "text": "Up 68% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -1964,7 +2024,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -1975,15 +2035,15 @@
         }
       ],
       "entry_price": 13.38,
-      "mark": 14.85,
-      "pl": 147.0,
-      "pl_pct": 11.0,
+      "mark": 12.975,
+      "pl": -40.5,
+      "pl_pct": -3.0,
       "technicals": {
-        "price": 98.11,
-        "rsi": 45.8,
-        "sma20": 99.23,
-        "sma50": 100.88,
-        "macd_hist": -0.042
+        "price": 96.64,
+        "rsi": 42.3,
+        "sma20": 98.95,
+        "sma50": 100.68,
+        "macd_hist": -0.039
       },
       "sparkline": [
         13.225,
@@ -1996,7 +2056,8 @@
         14.225,
         12.925,
         13.325,
-        14.85
+        14.85,
+        12.975
       ],
       "recommendations": [
         {
@@ -2022,7 +2083,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2033,15 +2094,15 @@
         }
       ],
       "entry_price": 4.33,
-      "mark": 4.175,
-      "pl": -15.5,
-      "pl_pct": -3.6,
+      "mark": 3.975,
+      "pl": -35.5,
+      "pl_pct": -8.2,
       "technicals": {
-        "price": 24.12,
-        "rsi": 57.1,
-        "sma20": 23.85,
-        "sma50": 22.22,
-        "macd_hist": -0.132
+        "price": 23.68,
+        "rsi": 53.2,
+        "sma20": 23.84,
+        "sma50": 22.31,
+        "macd_hist": -0.104
       },
       "sparkline": [
         3.575,
@@ -2054,9 +2115,14 @@
         3.3,
         3.285,
         3.7,
-        4.175
+        4.175,
+        3.975
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -2072,7 +2138,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2083,15 +2149,15 @@
         }
       ],
       "entry_price": 20.7,
-      "mark": 18.95,
-      "pl": -175.0,
-      "pl_pct": -8.5,
+      "mark": 18.45,
+      "pl": -225.0,
+      "pl_pct": -10.9,
       "technicals": {
-        "price": 91.31,
-        "rsi": 59.8,
-        "sma20": 89.03,
-        "sma50": 82.94,
-        "macd_hist": -0.52
+        "price": 90.17,
+        "rsi": 56.9,
+        "sma20": 89.41,
+        "sma50": 83.19,
+        "macd_hist": -0.42
       },
       "sparkline": [
         19.45,
@@ -2104,7 +2170,8 @@
         15.0,
         16.1,
         16.1,
-        18.95
+        18.95,
+        18.45
       ],
       "recommendations": [
         {
@@ -2122,7 +2189,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2133,15 +2200,15 @@
         }
       ],
       "entry_price": 6.25,
-      "mark": 7.05,
-      "pl": 80.0,
-      "pl_pct": 12.8,
+      "mark": 7.35,
+      "pl": 110.0,
+      "pl_pct": 17.6,
       "technicals": {
-        "price": 57.17,
-        "rsi": 54.8,
-        "sma20": 56.76,
-        "sma50": 56.06,
-        "macd_hist": -0.03
+        "price": 57.06,
+        "rsi": 53.8,
+        "sma20": 56.81,
+        "sma50": 56.09,
+        "macd_hist": -0.024
       },
       "sparkline": [
         7.1,
@@ -2153,7 +2220,8 @@
         7.65,
         6.85,
         6.65,
-        7.05
+        7.05,
+        7.35
       ],
       "recommendations": [
         {
@@ -2171,7 +2239,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2182,15 +2250,15 @@
         }
       ],
       "entry_price": 6.7,
-      "mark": 1.15,
-      "pl": -555.0,
-      "pl_pct": -82.8,
+      "mark": 1.225,
+      "pl": -547.5,
+      "pl_pct": -81.7,
       "technicals": {
-        "price": 46.61,
-        "rsi": 45.5,
-        "sma20": 48.56,
-        "sma50": 46.94,
-        "macd_hist": -0.531
+        "price": 46.68,
+        "rsi": 45.7,
+        "sma20": 48.64,
+        "sma50": 47.09,
+        "macd_hist": -0.625
       },
       "sparkline": [
         4.95,
@@ -2203,12 +2271,13 @@
         2.025,
         2.1,
         1.95,
-        1.15
+        1.15,
+        1.225
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Down 83% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+          "text": "Down 82% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
         },
         {
           "level": "warn",
@@ -2233,7 +2302,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2244,15 +2313,15 @@
         }
       ],
       "entry_price": 30.4,
-      "mark": 48.85,
-      "pl": 1845.0,
-      "pl_pct": 60.7,
+      "mark": 49.55,
+      "pl": 1915.0,
+      "pl_pct": 63.0,
       "technicals": {
-        "price": 232.72,
-        "rsi": 60.9,
-        "sma20": 221.11,
-        "sma50": 224.05,
-        "macd_hist": 1.577
+        "price": 233.46,
+        "rsi": 61.6,
+        "sma20": 221.12,
+        "sma50": 224.17,
+        "macd_hist": 2.002
       },
       "sparkline": [
         45.05,
@@ -2265,12 +2334,13 @@
         35.85,
         37.65,
         42.25,
-        48.85
+        48.85,
+        49.55
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 61% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "text": "Up 63% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -2283,7 +2353,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2294,15 +2364,15 @@
         }
       ],
       "entry_price": 38.58,
-      "mark": 41.2,
-      "pl": 262.0,
-      "pl_pct": 6.8,
+      "mark": 36.2,
+      "pl": -238.0,
+      "pl_pct": -6.2,
       "technicals": {
-        "price": 318.2,
-        "rsi": 50.6,
-        "sma20": 317.21,
-        "sma50": 318.07,
-        "macd_hist": -0.17
+        "price": 312.98,
+        "rsi": 46.0,
+        "sma20": 316.57,
+        "sma50": 318.49,
+        "macd_hist": -0.159
       },
       "sparkline": [
         37.8,
@@ -2315,9 +2385,18 @@
         37.0,
         36.375,
         36.6,
-        41.2
+        41.2,
+        36.2
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -2333,7 +2412,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2344,15 +2423,15 @@
         }
       ],
       "entry_price": 11.5,
-      "mark": 9.5,
-      "pl": -200.0,
-      "pl_pct": -17.4,
+      "mark": 8.6,
+      "pl": -290.0,
+      "pl_pct": -25.2,
       "technicals": {
-        "price": 113.97,
-        "rsi": 56.6,
-        "sma20": 112.14,
-        "sma50": 107.28,
-        "macd_hist": -0.645
+        "price": 112.01,
+        "rsi": 52.5,
+        "sma20": 112.09,
+        "sma50": 107.58,
+        "macd_hist": -0.546
       },
       "sparkline": [
         12.85,
@@ -2365,9 +2444,14 @@
         7.85,
         6.25,
         6.25,
-        9.5
+        9.5,
+        8.6
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -2383,7 +2467,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2394,15 +2478,15 @@
         }
       ],
       "entry_price": 27.15,
-      "mark": 24.25,
-      "pl": -290.0,
-      "pl_pct": -10.7,
+      "mark": 31.75,
+      "pl": 460.0,
+      "pl_pct": 16.9,
       "technicals": {
-        "price": 241.86,
-        "rsi": 54.3,
-        "sma20": 240.69,
-        "sma50": 225.78,
-        "macd_hist": -0.931
+        "price": 249.9,
+        "rsi": 60.5,
+        "sma20": 242.1,
+        "sma50": 226.41,
+        "macd_hist": -0.828
       },
       "sparkline": [
         32.15,
@@ -2415,7 +2499,8 @@
         37.8,
         32.5,
         22.55,
-        24.25
+        24.25,
+        31.75
       ],
       "recommendations": [
         {
@@ -2433,7 +2518,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2444,15 +2529,15 @@
         }
       ],
       "entry_price": 25.45,
-      "mark": 21.7,
-      "pl": -375.0,
-      "pl_pct": -14.7,
+      "mark": 18.6,
+      "pl": -685.0,
+      "pl_pct": -26.9,
       "technicals": {
-        "price": 155.81,
-        "rsi": 56.5,
-        "sma20": 154.96,
-        "sma50": 144.68,
-        "macd_hist": -0.868
+        "price": 150.76,
+        "rsi": 49.6,
+        "sma20": 155.01,
+        "sma50": 144.95,
+        "macd_hist": -0.921
       },
       "sparkline": [
         23.8,
@@ -2465,9 +2550,14 @@
         16.0,
         19.5,
         20.65,
-        21.7
+        21.7,
+        18.6
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -2483,7 +2573,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2494,15 +2584,15 @@
         }
       ],
       "entry_price": 32.4,
-      "mark": 30.15,
-      "pl": -225.0,
-      "pl_pct": -6.9,
+      "mark": 31.4,
+      "pl": -100.0,
+      "pl_pct": -3.1,
       "technicals": {
-        "price": 228.38,
+        "price": 228.41,
         "rsi": 58.5,
-        "sma20": 226.93,
-        "sma50": 207.89,
-        "macd_hist": -1.728
+        "sma20": 227.25,
+        "sma50": 208.84,
+        "macd_hist": -1.284
       },
       "sparkline": [
         30.7,
@@ -2515,7 +2605,8 @@
         21.4,
         24.5,
         25.75,
-        30.15
+        30.15,
+        31.4
       ],
       "recommendations": [
         {
@@ -2533,7 +2624,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2544,15 +2635,15 @@
         }
       ],
       "entry_price": 5.9,
-      "mark": 6.35,
-      "pl": 45.0,
-      "pl_pct": 7.6,
+      "mark": 5.4,
+      "pl": -50.0,
+      "pl_pct": -8.5,
       "technicals": {
-        "price": 53.09,
-        "rsi": 64.3,
-        "sma20": 50.78,
-        "sma50": 49.54,
-        "macd_hist": 0.07
+        "price": 52.01,
+        "rsi": 57.4,
+        "sma20": 50.93,
+        "sma50": 49.61,
+        "macd_hist": 0.09
       },
       "sparkline": [
         3.55,
@@ -2565,7 +2656,8 @@
         4.2,
         4.35,
         4.85,
-        6.35
+        6.35,
+        5.4
       ],
       "recommendations": [
         {
@@ -2583,7 +2675,7 @@
       "group": "GG_Core Leadership",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2594,15 +2686,15 @@
         }
       ],
       "entry_price": 14.4,
-      "mark": 5.8,
-      "pl": -860.0,
-      "pl_pct": -59.7,
+      "mark": 5.45,
+      "pl": -895.0,
+      "pl_pct": -62.2,
       "technicals": {
-        "price": 41.7,
-        "rsi": 29.4,
-        "sma20": 51.26,
-        "sma50": 59.6,
-        "macd_hist": -0.487
+        "price": 41.11,
+        "rsi": 28.7,
+        "sma20": 50.37,
+        "sma50": 59.05,
+        "macd_hist": -0.585
       },
       "sparkline": [
         13.9,
@@ -2615,12 +2707,13 @@
         8.575,
         9.25,
         8.2,
-        5.8
+        5.8,
+        5.45
       ],
       "recommendations": [
         {
           "level": "action",
-          "text": "Down 60% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
+          "text": "Down 62% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
         },
         {
           "level": "warn",
@@ -2649,7 +2742,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2660,15 +2753,15 @@
         }
       ],
       "entry_price": 6.65,
-      "mark": 8.675,
-      "pl": 202.5,
-      "pl_pct": 30.5,
+      "mark": 6.45,
+      "pl": -20.0,
+      "pl_pct": -3.0,
       "technicals": {
-        "price": 86.68,
-        "rsi": 57.7,
-        "sma20": 81.02,
-        "sma50": 86.9,
-        "macd_hist": 1.155
+        "price": 84.14,
+        "rsi": 50.9,
+        "sma20": 81.23,
+        "sma50": 86.64,
+        "macd_hist": 0.934
       },
       "sparkline": [
         6.425,
@@ -2681,7 +2774,8 @@
         7.275,
         6.725,
         7.95,
-        8.675
+        8.675,
+        6.45
       ],
       "recommendations": [
         {
@@ -2699,7 +2793,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-01",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2710,15 +2804,15 @@
         }
       ],
       "entry_price": 4.43,
-      "mark": 7.475,
-      "pl": 304.5,
-      "pl_pct": 68.7,
+      "mark": 6.925,
+      "pl": 249.5,
+      "pl_pct": 56.3,
       "technicals": {
-        "price": 114.95,
-        "rsi": 48.1,
-        "sma20": 114.41,
-        "sma50": 119.97,
-        "macd_hist": 0.452
+        "price": 114.24,
+        "rsi": 46.4,
+        "sma20": 114.22,
+        "sma50": 119.64,
+        "macd_hist": 0.492
       },
       "sparkline": [
         5.975,
@@ -2731,12 +2825,13 @@
         7.65,
         6.6,
         5.85,
-        7.475
+        7.475,
+        6.925
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 69% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "text": "Up 56% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         },
         {
           "level": "warn",
@@ -2753,7 +2848,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2764,15 +2859,15 @@
         }
       ],
       "entry_price": 127.1,
-      "mark": 108.95,
-      "pl": -1815.0,
-      "pl_pct": -14.3,
+      "mark": 104.025,
+      "pl": -2307.5,
+      "pl_pct": -18.2,
       "technicals": {
-        "price": 500.94,
-        "rsi": 46.9,
-        "sma20": 533.85,
-        "sma50": 496.27,
-        "macd_hist": -6.3
+        "price": 495.76,
+        "rsi": 46.1,
+        "sma20": 533.02,
+        "sma50": 499.08,
+        "macd_hist": -7.919
       },
       "sparkline": [
         127.1,
@@ -2784,12 +2879,17 @@
         137.925,
         150.1,
         133.125,
-        108.95
+        108.95,
+        104.025
       ],
       "recommendations": [
         {
           "level": "warn",
           "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
         },
         {
           "level": "watch",
@@ -2806,7 +2906,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2817,15 +2917,15 @@
         }
       ],
       "entry_price": 44.83,
-      "mark": 39.3,
-      "pl": -553.0,
-      "pl_pct": -12.3,
+      "mark": 37.2,
+      "pl": -763.0,
+      "pl_pct": -17.0,
       "technicals": {
-        "price": 186.36,
-        "rsi": 56.2,
-        "sma20": 184.12,
-        "sma50": 168.94,
-        "macd_hist": -0.575
+        "price": 184.14,
+        "rsi": 53.7,
+        "sma20": 185.05,
+        "sma50": 169.3,
+        "macd_hist": -1.036
       },
       "sparkline": [
         44.825,
@@ -2837,9 +2937,14 @@
         42.45,
         40.975,
         42.425,
-        39.3
+        39.3,
+        37.2
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -2855,7 +2960,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2866,15 +2971,15 @@
         }
       ],
       "entry_price": 91.25,
-      "mark": 84.55,
-      "pl": -670.0,
-      "pl_pct": -7.3,
+      "mark": 89.05,
+      "pl": -220.0,
+      "pl_pct": -2.4,
       "technicals": {
-        "price": 391.38,
-        "rsi": 47.2,
-        "sma20": 420.94,
-        "sma50": 361.77,
-        "macd_hist": -6.342
+        "price": 396.34,
+        "rsi": 48.4,
+        "sma20": 419.8,
+        "sma50": 365.37,
+        "macd_hist": -7.525
       },
       "sparkline": [
         91.25,
@@ -2886,7 +2991,8 @@
         115.55,
         143.175,
         103.4,
-        84.55
+        84.55,
+        89.05
       ],
       "recommendations": [
         {
@@ -2908,7 +3014,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2919,15 +3025,15 @@
         }
       ],
       "entry_price": 26.53,
-      "mark": 20.0,
-      "pl": -653.0,
-      "pl_pct": -24.6,
+      "mark": 15.575,
+      "pl": -1095.5,
+      "pl_pct": -41.3,
       "technicals": {
-        "price": 106.02,
-        "rsi": 52.3,
-        "sma20": 107.55,
-        "sma50": 92.56,
-        "macd_hist": -0.677
+        "price": 99.96,
+        "rsi": 46.6,
+        "sma20": 107.29,
+        "sma50": 93.02,
+        "macd_hist": -1.503
       },
       "sparkline": [
         26.525,
@@ -2939,7 +3045,8 @@
         22.975,
         26.05,
         27.625,
-        20.0
+        20.0,
+        15.575
       ],
       "recommendations": [
         {
@@ -2961,7 +3068,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -2972,15 +3079,15 @@
         }
       ],
       "entry_price": 79.3,
-      "mark": 75.3,
-      "pl": -400.0,
-      "pl_pct": -5.0,
+      "mark": 65.8,
+      "pl": -1350.0,
+      "pl_pct": -17.0,
       "technicals": {
-        "price": 391.06,
-        "rsi": 46.0,
-        "sma20": 398.63,
-        "sma50": 409.97,
-        "macd_hist": -0.818
+        "price": 380.84,
+        "rsi": 42.6,
+        "sma20": 397.85,
+        "sma50": 409.8,
+        "macd_hist": -1.671
       },
       "sparkline": [
         79.3,
@@ -2992,7 +3099,8 @@
         79.25,
         80.275,
         78.55,
-        75.3
+        75.3,
+        65.8
       ],
       "recommendations": [
         {
@@ -3018,7 +3126,7 @@
       "group": "GG_Positive Expectancy",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3029,15 +3137,15 @@
         }
       ],
       "entry_price": 93.28,
-      "mark": 67.525,
-      "pl": -2575.5,
-      "pl_pct": -27.6,
+      "mark": 57.575,
+      "pl": -3570.5,
+      "pl_pct": -38.3,
       "technicals": {
-        "price": 409.74,
-        "rsi": 42.4,
-        "sma20": 439.06,
-        "sma50": 425.57,
-        "macd_hist": -4.957
+        "price": 398.37,
+        "rsi": 39.1,
+        "sma20": 437.37,
+        "sma50": 425.65,
+        "macd_hist": -5.797
       },
       "sparkline": [
         93.275,
@@ -3049,7 +3157,8 @@
         79.225,
         77.85,
         76.75,
-        67.525
+        67.525,
+        57.575
       ],
       "recommendations": [
         {
@@ -3075,7 +3184,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3086,15 +3195,15 @@
         }
       ],
       "entry_price": 23.7,
-      "mark": 16.45,
-      "pl": -725.0,
-      "pl_pct": -30.6,
+      "mark": 23.2,
+      "pl": -50.0,
+      "pl_pct": -2.1,
       "technicals": {
-        "price": 241.86,
-        "rsi": 54.3,
-        "sma20": 240.69,
-        "sma50": 225.78,
-        "macd_hist": -0.931
+        "price": 249.9,
+        "rsi": 60.5,
+        "sma20": 242.1,
+        "sma50": 226.41,
+        "macd_hist": -0.828
       },
       "sparkline": [
         23.7,
@@ -3106,7 +3215,8 @@
         28.85,
         24.2,
         14.85,
-        16.45
+        16.45,
+        23.2
       ],
       "recommendations": [
         {
@@ -3124,7 +3234,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3135,15 +3245,15 @@
         }
       ],
       "entry_price": 37.75,
-      "mark": 24.65,
-      "pl": -1310.0,
-      "pl_pct": -34.7,
+      "mark": 22.65,
+      "pl": -1510.0,
+      "pl_pct": -40.0,
       "technicals": {
-        "price": 145.22,
-        "rsi": 32.5,
-        "sma20": 161.1,
-        "sma50": 180.22,
-        "macd_hist": -0.35
+        "price": 143.8,
+        "rsi": 31.7,
+        "sma20": 158.62,
+        "sma50": 179.32,
+        "macd_hist": -0.355
       },
       "sparkline": [
         37.75,
@@ -3155,7 +3265,8 @@
         27.45,
         32.65,
         30.7,
-        24.65
+        24.65,
+        22.65
       ],
       "recommendations": [
         {
@@ -3181,7 +3292,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3192,15 +3303,15 @@
         }
       ],
       "entry_price": 18.8,
-      "mark": 23.8,
-      "pl": 500.0,
-      "pl_pct": 26.6,
+      "mark": 21.5,
+      "pl": 270.0,
+      "pl_pct": 14.4,
       "technicals": {
-        "price": 97.37,
-        "rsi": 65.4,
-        "sma20": 90.15,
-        "sma50": 83.14,
-        "macd_hist": 0.483
+        "price": 95.24,
+        "rsi": 60.5,
+        "sma20": 90.68,
+        "sma50": 83.48,
+        "macd_hist": 0.403
       },
       "sparkline": [
         18.8,
@@ -3212,7 +3323,8 @@
         18.5,
         18.75,
         23.4,
-        23.8
+        23.8,
+        21.5
       ],
       "recommendations": [
         {
@@ -3230,7 +3342,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3241,15 +3353,15 @@
         }
       ],
       "entry_price": 9.33,
-      "mark": 6.4,
-      "pl": -293.0,
-      "pl_pct": -31.4,
+      "mark": 6.425,
+      "pl": -290.5,
+      "pl_pct": -31.1,
       "technicals": {
-        "price": 34.84,
-        "rsi": 36.9,
-        "sma20": 37.31,
-        "sma50": 39.85,
-        "macd_hist": -0.087
+        "price": 34.93,
+        "rsi": 37.4,
+        "sma20": 36.99,
+        "sma50": 39.78,
+        "macd_hist": -0.103
       },
       "sparkline": [
         9.325,
@@ -3261,7 +3373,8 @@
         7.3,
         8.15,
         7.325,
-        6.4
+        6.4,
+        6.425
       ],
       "recommendations": [
         {
@@ -3287,7 +3400,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3298,15 +3411,15 @@
         }
       ],
       "entry_price": 6.75,
-      "mark": 6.35,
-      "pl": -40.0,
-      "pl_pct": -5.9,
+      "mark": 6.2,
+      "pl": -55.0,
+      "pl_pct": -8.1,
       "technicals": {
-        "price": 63.15,
-        "rsi": 63.4,
-        "sma20": 61.11,
-        "sma50": 57.99,
-        "macd_hist": -0.096
+        "price": 62.71,
+        "rsi": 60.9,
+        "sma20": 61.36,
+        "sma50": 58.1,
+        "macd_hist": -0.055
       },
       "sparkline": [
         6.75,
@@ -3318,7 +3431,8 @@
         4.95,
         4.65,
         4.5,
-        6.35
+        6.35,
+        6.2
       ],
       "recommendations": [
         {
@@ -3336,7 +3450,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3347,15 +3461,15 @@
         }
       ],
       "entry_price": 10.9,
-      "mark": 18.25,
-      "pl": 735.0,
-      "pl_pct": 67.4,
+      "mark": 18.45,
+      "pl": 755.0,
+      "pl_pct": 69.3,
       "technicals": {
-        "price": 85.29,
-        "rsi": 71.4,
-        "sma20": 78.64,
-        "sma50": 71.34,
-        "macd_hist": 0.408
+        "price": 85.41,
+        "rsi": 71.6,
+        "sma20": 79.31,
+        "sma50": 71.9,
+        "macd_hist": 0.393
       },
       "sparkline": [
         10.9,
@@ -3367,16 +3481,17 @@
         14.9,
         16.35,
         18.2,
-        18.25
+        18.25,
+        18.45
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 67% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "text": "Up 69% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         },
         {
           "level": "watch",
-          "text": "RSI 71 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
+          "text": "RSI 72 (overbought) \u2014 momentum stretched; a scale-out here often beats waiting for the pullback."
         }
       ],
       "notes": ""
@@ -3389,7 +3504,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3400,15 +3515,15 @@
         }
       ],
       "entry_price": 106.95,
-      "mark": 131.55,
-      "pl": 2460.0,
-      "pl_pct": 23.0,
+      "mark": 163.25,
+      "pl": 5630.0,
+      "pl_pct": 52.6,
       "technicals": {
-        "price": 827.04,
-        "rsi": 51.7,
-        "sma20": 815.7,
-        "sma50": 824.7,
-        "macd_hist": 2.09
+        "price": 859.12,
+        "rsi": 57.4,
+        "sma20": 816.11,
+        "sma50": 824.64,
+        "macd_hist": 3.774
       },
       "sparkline": [
         106.95,
@@ -3420,12 +3535,13 @@
         164.2,
         151.75,
         113.95,
-        131.55
+        131.55,
+        163.25
       ],
       "recommendations": [
         {
-          "level": "hold",
-          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+          "level": "watch",
+          "text": "Up 53% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -3438,7 +3554,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3449,15 +3565,15 @@
         }
       ],
       "entry_price": 39.7,
-      "mark": 23.4,
-      "pl": -1630.0,
-      "pl_pct": -41.1,
+      "mark": 30.95,
+      "pl": -875.0,
+      "pl_pct": -22.0,
       "technicals": {
-        "price": 343.7,
-        "rsi": 52.3,
-        "sma20": 343.08,
-        "sma50": 330.69,
-        "macd_hist": -1.344
+        "price": 352.16,
+        "rsi": 57.7,
+        "sma20": 344.29,
+        "sma50": 331.29,
+        "macd_hist": -0.971
       },
       "sparkline": [
         39.7,
@@ -3469,7 +3585,8 @@
         33.45,
         26.25,
         18.6,
-        23.4
+        23.4,
+        30.95
       ],
       "recommendations": [
         {
@@ -3487,7 +3604,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3498,15 +3615,15 @@
         }
       ],
       "entry_price": 23.45,
-      "mark": 10.35,
-      "pl": -1310.0,
-      "pl_pct": -55.9,
+      "mark": 13.6,
+      "pl": -985.0,
+      "pl_pct": -42.0,
       "technicals": {
-        "price": 176.29,
-        "rsi": 49.2,
-        "sma20": 180.35,
-        "sma50": 170.62,
-        "macd_hist": -1.625
+        "price": 180.79,
+        "rsi": 54.1,
+        "sma20": 180.82,
+        "sma50": 171.03,
+        "macd_hist": -1.344
       },
       "sparkline": [
         23.45,
@@ -3518,13 +3635,10 @@
         15.2,
         13.7,
         7.65,
-        10.35
+        10.35,
+        13.6
       ],
       "recommendations": [
-        {
-          "level": "action",
-          "text": "Down 56% \u2014 standard long-premium stop is \u221250%; theta will keep working against the position."
-        },
         {
           "level": "warn",
           "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
@@ -3544,7 +3658,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3555,15 +3669,15 @@
         }
       ],
       "entry_price": 11.35,
-      "mark": 12.3,
-      "pl": 95.0,
-      "pl_pct": 8.4,
+      "mark": 13.1,
+      "pl": 175.0,
+      "pl_pct": 15.4,
       "technicals": {
-        "price": 86.65,
-        "rsi": 64.0,
-        "sma20": 83.28,
-        "sma50": 80.75,
-        "macd_hist": 0.126
+        "price": 87.3,
+        "rsi": 65.7,
+        "sma20": 83.78,
+        "sma50": 80.81,
+        "macd_hist": 0.163
       },
       "sparkline": [
         11.35,
@@ -3575,7 +3689,8 @@
         12.0,
         11.05,
         10.0,
-        12.3
+        12.3,
+        13.1
       ],
       "recommendations": [
         {
@@ -3593,7 +3708,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3604,15 +3719,15 @@
         }
       ],
       "entry_price": 10.85,
-      "mark": 13.15,
-      "pl": 230.0,
-      "pl_pct": 21.2,
+      "mark": 14.075,
+      "pl": 322.5,
+      "pl_pct": 29.7,
       "technicals": {
-        "price": 43.03,
-        "rsi": 49.3,
-        "sma20": 42.31,
-        "sma50": 44.65,
-        "macd_hist": 0.333
+        "price": 43.83,
+        "rsi": 53.3,
+        "sma20": 42.37,
+        "sma50": 44.51,
+        "macd_hist": 0.367
       },
       "sparkline": [
         10.85,
@@ -3624,7 +3739,8 @@
         14.2,
         13.925,
         12.925,
-        13.15
+        13.15,
+        14.075
       ],
       "recommendations": [
         {
@@ -3642,7 +3758,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3653,15 +3769,15 @@
         }
       ],
       "entry_price": 24.4,
-      "mark": 41.0,
-      "pl": 1660.0,
-      "pl_pct": 68.0,
+      "mark": 46.0,
+      "pl": 2160.0,
+      "pl_pct": 88.5,
       "technicals": {
-        "price": 190.13,
-        "rsi": 54.3,
-        "sma20": 182.97,
-        "sma50": 191.81,
-        "macd_hist": 1.926
+        "price": 195.54,
+        "rsi": 59.7,
+        "sma20": 183.47,
+        "sma50": 191.6,
+        "macd_hist": 2.201
       },
       "sparkline": [
         24.4,
@@ -3673,16 +3789,13 @@
         42.65,
         41.8,
         40.35,
-        41.0
+        41.0,
+        46.0
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 68% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
-        },
-        {
-          "level": "warn",
-          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+          "text": "Up 89% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -3695,7 +3808,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3706,15 +3819,15 @@
         }
       ],
       "entry_price": 37.8,
-      "mark": 41.2,
-      "pl": 340.0,
-      "pl_pct": 9.0,
+      "mark": 36.2,
+      "pl": -160.0,
+      "pl_pct": -4.2,
       "technicals": {
-        "price": 318.2,
-        "rsi": 50.6,
-        "sma20": 317.21,
-        "sma50": 318.07,
-        "macd_hist": -0.17
+        "price": 312.98,
+        "rsi": 46.0,
+        "sma20": 316.57,
+        "sma50": 318.49,
+        "macd_hist": -0.159
       },
       "sparkline": [
         37.8,
@@ -3726,9 +3839,18 @@
         37.0,
         36.375,
         36.6,
-        41.2
+        41.2,
+        36.2
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
+        {
+          "level": "warn",
+          "text": "Underlying is below its 50-day SMA \u2014 intermediate trend is down; bullish premium is fighting the tape."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -3744,7 +3866,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3755,15 +3877,15 @@
         }
       ],
       "entry_price": 4.2,
-      "mark": 6.175,
-      "pl": 197.5,
-      "pl_pct": 47.0,
+      "mark": 7.0,
+      "pl": 280.0,
+      "pl_pct": 66.7,
       "technicals": {
-        "price": 24.14,
-        "rsi": 54.1,
-        "sma20": 23.32,
-        "sma50": 23.57,
-        "macd_hist": 0.135
+        "price": 24.84,
+        "rsi": 58.9,
+        "sma20": 23.41,
+        "sma50": 23.64,
+        "macd_hist": 0.165
       },
       "sparkline": [
         4.2,
@@ -3775,12 +3897,13 @@
         6.65,
         6.35,
         6.1,
-        6.175
+        6.175,
+        7.0
       ],
       "recommendations": [
         {
-          "level": "hold",
-          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
+          "level": "watch",
+          "text": "Up 67% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -3793,7 +3916,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3804,15 +3927,15 @@
         }
       ],
       "entry_price": 6.5,
-      "mark": 7.65,
-      "pl": 115.0,
-      "pl_pct": 17.7,
+      "mark": 6.925,
+      "pl": 42.5,
+      "pl_pct": 6.5,
       "technicals": {
-        "price": 24.12,
-        "rsi": 57.1,
-        "sma20": 23.85,
-        "sma50": 22.22,
-        "macd_hist": -0.132
+        "price": 23.68,
+        "rsi": 53.2,
+        "sma20": 23.84,
+        "sma50": 22.31,
+        "macd_hist": -0.104
       },
       "sparkline": [
         6.5,
@@ -3824,9 +3947,14 @@
         6.3,
         6.0,
         6.975,
-        7.65
+        7.65,
+        6.925
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -3842,7 +3970,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3853,15 +3981,15 @@
         }
       ],
       "entry_price": 21.2,
-      "mark": 19.15,
-      "pl": -205.0,
-      "pl_pct": -9.7,
+      "mark": 17.45,
+      "pl": -375.0,
+      "pl_pct": -17.7,
       "technicals": {
-        "price": 107.49,
-        "rsi": 54.0,
-        "sma20": 107.36,
-        "sma50": 102.78,
-        "macd_hist": -0.505
+        "price": 106.25,
+        "rsi": 50.6,
+        "sma20": 107.6,
+        "sma50": 102.95,
+        "macd_hist": -0.616
       },
       "sparkline": [
         21.2,
@@ -3873,9 +4001,14 @@
         21.1,
         19.75,
         17.0,
-        19.15
+        19.15,
+        17.45
       ],
       "recommendations": [
+        {
+          "level": "warn",
+          "text": "Underlying closed below its 20-day SMA \u2014 short-term trend no longer supports the bullish thesis."
+        },
         {
           "level": "watch",
           "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
@@ -3891,7 +4024,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3902,15 +4035,15 @@
         }
       ],
       "entry_price": 6.1,
-      "mark": 9.2,
-      "pl": 310.0,
-      "pl_pct": 50.8,
+      "mark": 9.65,
+      "pl": 355.0,
+      "pl_pct": 58.2,
       "technicals": {
-        "price": 93.7,
-        "rsi": 68.1,
-        "sma20": 88.83,
-        "sma50": 85.04,
-        "macd_hist": 0.299
+        "price": 94.0,
+        "rsi": 68.7,
+        "sma20": 89.24,
+        "sma50": 85.33,
+        "macd_hist": 0.294
       },
       "sparkline": [
         6.1,
@@ -3922,12 +4055,13 @@
         8.85,
         8.55,
         8.35,
-        9.2
+        9.2,
+        9.65
       ],
       "recommendations": [
         {
           "level": "watch",
-          "text": "Up 51% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "text": "Up 58% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
         }
       ],
       "notes": ""
@@ -3940,7 +4074,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -3951,15 +4085,15 @@
         }
       ],
       "entry_price": 7.7,
-      "mark": 7.35,
-      "pl": -35.0,
-      "pl_pct": -4.5,
+      "mark": 7.05,
+      "pl": -65.0,
+      "pl_pct": -8.4,
       "technicals": {
-        "price": 46.9,
-        "rsi": 53.4,
-        "sma20": 47.2,
-        "sma50": 44.24,
-        "macd_hist": -0.312
+        "price": 46.13,
+        "rsi": 47.9,
+        "sma20": 47.16,
+        "sma50": 44.4,
+        "macd_hist": -0.332
       },
       "sparkline": [
         7.7,
@@ -3971,7 +4105,8 @@
         7.8,
         7.8,
         7.3,
-        7.35
+        7.35,
+        7.05
       ],
       "recommendations": [
         {
@@ -3993,7 +4128,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -4004,15 +4139,15 @@
         }
       ],
       "entry_price": 6.8,
-      "mark": 7.2,
-      "pl": 40.0,
-      "pl_pct": 5.9,
+      "mark": 7.15,
+      "pl": 35.0,
+      "pl_pct": 5.1,
       "technicals": {
-        "price": 29.57,
-        "rsi": 57.6,
-        "sma20": 29.0,
-        "sma50": 28.38,
-        "macd_hist": -0.034
+        "price": 29.42,
+        "rsi": 55.9,
+        "sma20": 29.06,
+        "sma50": 28.37,
+        "macd_hist": 0.013
       },
       "sparkline": [
         6.8,
@@ -4024,12 +4159,13 @@
         6.35,
         5.95,
         6.15,
-        7.2
+        7.2,
+        7.15
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "MACD histogram negative \u2014 bullish momentum fading on the daily chart."
+          "level": "hold",
+          "text": "No exit triggers hit \u2014 thesis intact, time remaining, technicals aligned. Hold per plan."
         }
       ],
       "notes": ""
@@ -4042,7 +4178,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -4053,15 +4189,15 @@
         }
       ],
       "entry_price": 8.9,
-      "mark": 12.85,
-      "pl": 395.0,
-      "pl_pct": 44.4,
+      "mark": 12.7,
+      "pl": 380.0,
+      "pl_pct": 42.7,
       "technicals": {
-        "price": 42.3,
-        "rsi": 61.2,
-        "sma20": 39.59,
-        "sma50": 38.81,
-        "macd_hist": 0.357
+        "price": 42.28,
+        "rsi": 61.1,
+        "sma20": 39.93,
+        "sma50": 38.9,
+        "macd_hist": 0.277
       },
       "sparkline": [
         8.9,
@@ -4073,7 +4209,8 @@
         13.6,
         13.5,
         13.3,
-        12.85
+        12.85,
+        12.7
       ],
       "recommendations": [
         {
@@ -4091,7 +4228,7 @@
       "group": "GG_High Relative Strength",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -4102,15 +4239,15 @@
         }
       ],
       "entry_price": 11.8,
-      "mark": 7.9,
-      "pl": -390.0,
-      "pl_pct": -33.1,
+      "mark": 7.45,
+      "pl": -435.0,
+      "pl_pct": -36.9,
       "technicals": {
-        "price": 41.98,
-        "rsi": 36.5,
-        "sma20": 45.04,
-        "sma50": 50.47,
-        "macd_hist": 0.068
+        "price": 41.77,
+        "rsi": 36.0,
+        "sma20": 44.61,
+        "sma50": 50.29,
+        "macd_hist": 0.037
       },
       "sparkline": [
         11.8,
@@ -4122,7 +4259,8 @@
         8.45,
         9.3,
         9.0,
-        7.9
+        7.9,
+        7.45
       ],
       "recommendations": [
         {
@@ -4144,7 +4282,7 @@
       "group": "1 Samurai Scan First",
       "buy_date": "2026-07-02",
       "expiration": "2026-08-21",
-      "dte": 36,
+      "dte": 35,
       "contracts": 1,
       "legs": [
         {
@@ -4155,15 +4293,15 @@
         }
       ],
       "entry_price": 1.94,
-      "mark": 3.325,
-      "pl": 138.5,
-      "pl_pct": 71.4,
+      "mark": 4.025,
+      "pl": 208.5,
+      "pl_pct": 107.5,
       "technicals": {
-        "price": 24.14,
-        "rsi": 54.1,
-        "sma20": 23.32,
-        "sma50": 23.57,
-        "macd_hist": 0.135
+        "price": 24.84,
+        "rsi": 58.9,
+        "sma20": 23.41,
+        "sma50": 23.64,
+        "macd_hist": 0.165
       },
       "sparkline": [
         1.94,
@@ -4175,12 +4313,13 @@
         3.825,
         4.075,
         3.215,
-        3.325
+        3.325,
+        4.025
       ],
       "recommendations": [
         {
-          "level": "watch",
-          "text": "Up 71% \u2014 profit-target zone. A trailing exit (e.g., give back no more than a third) protects gains."
+          "level": "action",
+          "text": "Up 107% \u2014 consider taking profit or selling half to lock in the original debit."
         }
       ],
       "notes": ""
@@ -4242,6 +4381,11 @@
       "date": "2026-07-16",
       "realized": 0,
       "total": -20925.5
+    },
+    {
+      "date": "2026-07-17",
+      "realized": 0,
+      "total": -26124.5
     }
   ]
 }
